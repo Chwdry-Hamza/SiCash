@@ -2,8 +2,204 @@
 
 export default function HubSection() {
   return (
-    <section id="hub" className="relative bg-black pt-24 pb-40 overflow-hidden">
-      <div className="relative z-10 w-full max-w-380 mx-auto px-8">
+    <section id="hub" className="relative bg-black pt-16 md:pt-24 pb-32 md:pb-40 overflow-hidden">
+      {/* Mobile Layout */}
+      <div className="md:hidden relative z-10 w-full px-4 space-y-4">
+        {/* SICASH HUB Card */}
+        <div className="bg-[#a8a08c] rounded-3xl p-6 relative overflow-hidden min-h-[320px]">
+          {/* Floating Icons */}
+          <div className="absolute inset-0">
+            <svg className="absolute top-12 left-8 w-10 h-10 text-[#8a8274]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <rect x="3" y="8" width="18" height="12" rx="2" />
+              <path d="M7 8V6a2 2 0 012-2h6a2 2 0 012 2v2" />
+              <circle cx="12" cy="14" r="2" />
+            </svg>
+            <svg className="absolute top-20 left-24 w-12 h-12 text-[#8a8274]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <rect x="3" y="4" width="18" height="18" rx="2" />
+              <path d="M9 10h.01M15 10h.01M9 14h6" />
+            </svg>
+            <svg className="absolute top-8 right-12 w-10 h-10 text-[#8a8274]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01" />
+            </svg>
+            <svg className="absolute top-32 right-8 w-12 h-12 text-[#8a8274]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+            </svg>
+            <svg className="absolute top-16 right-28 w-8 h-8 text-[#8a8274]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <rect x="2" y="6" width="20" height="12" rx="2" />
+              <path d="M2 10h20" />
+            </svg>
+          </div>
+
+          {/* Content */}
+          <div className="absolute bottom-6 left-6 right-6">
+            <h3 className="text-4xl font-bold text-white mb-3">SICASH HUB</h3>
+            <p className="text-zinc-700 text-sm leading-relaxed">
+              Internal marketplace featuring a variety of services and products with attractive cashback offers for SICASH users.
+            </p>
+          </div>
+        </div>
+
+        {/* EASY REGISTRATION Card */}
+        <div className="bg-[#2a2520] rounded-3xl relative overflow-hidden min-h-[280px]">
+          {/* Fingerprint on card visual */}
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="w-64 h-48 bg-zinc-800/50 rounded-2xl transform perspective-1000 rotate-x-12 flex items-center justify-center shadow-2xl">
+              <svg viewBox="0 0 100 140" className="w-32 h-44 opacity-60">
+                <path d="M50,20 Q30,40 30,70 Q30,100 50,120" fill="none" stroke="#71717a" strokeWidth="2" />
+                <path d="M50,25 Q35,45 35,70 Q35,95 50,115" fill="none" stroke="#71717a" strokeWidth="2" />
+                <path d="M50,30 Q40,50 40,70 Q40,90 50,110" fill="none" stroke="#71717a" strokeWidth="2" />
+                <path d="M50,35 Q45,55 45,70 Q45,85 50,105" fill="none" stroke="#71717a" strokeWidth="2" />
+                <path d="M50,20 Q70,40 70,70 Q70,100 50,120" fill="none" stroke="#71717a" strokeWidth="2" />
+                <path d="M50,25 Q65,45 65,70 Q65,95 50,115" fill="none" stroke="#71717a" strokeWidth="2" />
+                <path d="M50,30 Q60,50 60,70 Q60,90 50,110" fill="none" stroke="#71717a" strokeWidth="2" />
+                <path d="M50,35 Q55,55 55,70 Q55,85 50,105" fill="none" stroke="#71717a" strokeWidth="2" />
+              </svg>
+            </div>
+          </div>
+
+          {/* Content */}
+          <div className="absolute bottom-6 left-6">
+            <h3 className="text-2xl font-bold text-white">EASY REGISTRATION</h3>
+          </div>
+        </div>
+
+        {/* WE CARE ABOUT YOUR SECURITY Card */}
+        <div className="bg-zinc-900 rounded-3xl p-6 relative overflow-hidden min-h-[320px]">
+          {/* EU Badge */}
+          <div className="flex items-center gap-2 mb-6">
+            <div className="w-6 h-6 border border-zinc-600 rounded flex items-center justify-center">
+              <div className="w-1 h-1 bg-zinc-500 rounded-full" />
+            </div>
+            <span className="text-zinc-400 text-sm">EU entity & License</span>
+          </div>
+
+          {/* Lock Visual */}
+          <div className="flex items-center gap-4 mb-16">
+            <div className="w-16 h-16 bg-zinc-800 rounded-2xl flex items-center justify-center border-4 border-amber-600/50 shadow-lg shadow-amber-900/20">
+              <svg className="w-8 h-8 text-zinc-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <rect x="3" y="11" width="18" height="11" rx="2" />
+                <path d="M7 11V7a5 5 0 0110 0v4" />
+              </svg>
+            </div>
+            <div>
+              <p className="text-zinc-400 text-lg">Lock all th<span className="text-zinc-600">e</span></p>
+              <p className="text-zinc-600 text-sm">Information of...</p>
+            </div>
+          </div>
+
+          {/* Content */}
+          <div className="absolute bottom-6 left-6 right-6">
+            <h3 className="text-2xl font-bold text-white mb-3">
+              WE CARE ABOUT YOUR SECURITY
+            </h3>
+            <p className="text-zinc-500 text-sm leading-relaxed">
+              Advanced encryption and two-factor authentication for round-the-clock protection of accounts and transactions.
+            </p>
+          </div>
+        </div>
+
+        {/* HUMAN CUSTOMER CARE Card */}
+        <div className="bg-[#2a2520] rounded-3xl p-6 relative overflow-hidden min-h-[400px]">
+          {/* Light streaks background */}
+          <div className="absolute top-0 left-0 right-0 h-32 bg-linear-to-b from-amber-900/20 to-transparent" />
+
+          {/* Content */}
+          <div className="relative z-10 mb-4">
+            <h3 className="text-3xl font-bold text-white leading-tight mb-4">
+              HUMAN<br />CUSTOMER<br />CARE
+            </h3>
+            <p className="text-zinc-500 text-sm leading-relaxed max-w-[200px]">
+              Whatever your needs or questions, we are here with real human customer care specialists to provide reliable support at every step of your financial journey with SICASH.
+            </p>
+          </div>
+
+          {/* Phone mockup */}
+          <div className="absolute top-4 right-0 w-48">
+            <div className="bg-zinc-900 rounded-l-3xl border-l-4 border-y-4 border-zinc-800 overflow-hidden">
+              <div className="p-2 bg-black">
+                <div className="text-center py-2 border-b border-zinc-800">
+                  <span className="text-white text-xs font-bold tracking-wider">SUPPORT CH</span>
+                </div>
+                <div className="flex items-center gap-2 px-2 py-2 border-b border-zinc-800">
+                  <svg className="w-3 h-3 text-zinc-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M15 18l-6-6 6-6" />
+                  </svg>
+                  <div className="w-6 h-6 bg-zinc-700 rounded-full" />
+                  <div>
+                    <span className="text-white text-[10px] font-medium block">Marcel Wisniewski</span>
+                    <span className="text-green-500 text-[8px]">Online</span>
+                  </div>
+                </div>
+                <div className="p-2 space-y-2">
+                  <div className="bg-zinc-800 rounded-lg px-2 py-1">
+                    <p className="text-zinc-400 text-[8px]">Hello, I'm having trouble with online banking app...</p>
+                  </div>
+                  <div className="bg-zinc-700 rounded-lg px-2 py-1">
+                    <p className="text-white text-[8px]">I'm sorry to hear that. I'd be happy to assist you...</p>
+                  </div>
+                  <div className="bg-zinc-800 rounded-lg px-2 py-1">
+                    <p className="text-zinc-400 text-[8px]">Sure, my account number is 123456789...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* WORLDWIDE FINANCIAL ACCESS Card */}
+        <div className="bg-zinc-900 rounded-3xl p-6 relative overflow-hidden min-h-[380px]">
+          {/* Globe wireframe */}
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-72 h-72">
+            <svg viewBox="0 0 200 200" className="w-full h-full opacity-40">
+              <circle cx="100" cy="100" r="90" fill="none" stroke="#3f3f46" strokeWidth="0.5" />
+              <ellipse cx="100" cy="100" rx="90" ry="20" fill="none" stroke="#3f3f46" strokeWidth="0.5" />
+              <ellipse cx="100" cy="70" rx="80" ry="18" fill="none" stroke="#3f3f46" strokeWidth="0.5" />
+              <ellipse cx="100" cy="130" rx="80" ry="18" fill="none" stroke="#3f3f46" strokeWidth="0.5" />
+              <ellipse cx="100" cy="100" rx="20" ry="90" fill="none" stroke="#3f3f46" strokeWidth="0.5" />
+              <ellipse cx="100" cy="100" rx="50" ry="90" fill="none" stroke="#3f3f46" strokeWidth="0.5" />
+              {Array.from({ length: 40 }).map((_, i) => {
+                const angle = (360 / 40) * i;
+                const radian = (angle * Math.PI) / 180;
+                const radius = 60 + ((i * 13) % 30);
+                const x = Math.round(100 + radius * Math.cos(radian));
+                const y = Math.round(100 + radius * Math.sin(radian) * 0.5);
+                return <circle key={i} cx={x} cy={y} r="1.5" fill="#52525b" />;
+              })}
+            </svg>
+          </div>
+
+          {/* Floating avatars */}
+          <div className="absolute top-24 right-8 w-14 h-14 bg-zinc-800 rounded-xl overflow-hidden border border-zinc-700 shadow-xl">
+            <div className="w-full h-full bg-linear-to-br from-rose-200 to-rose-300" />
+          </div>
+          <div className="absolute top-16 right-24 w-12 h-12 bg-zinc-800 rounded-xl overflow-hidden border border-zinc-700 shadow-xl">
+            <div className="w-full h-full bg-linear-to-br from-amber-100 to-amber-200" />
+          </div>
+          <div className="absolute top-40 right-4 w-11 h-11 bg-zinc-800 rounded-xl overflow-hidden border border-zinc-700 shadow-xl">
+            <div className="w-full h-full bg-linear-to-br from-zinc-400 to-zinc-500" />
+          </div>
+          <div className="absolute top-32 left-8 w-12 h-12 bg-zinc-800 rounded-xl overflow-hidden border border-zinc-700 shadow-xl">
+            <div className="w-full h-full bg-linear-to-br from-zinc-300 to-zinc-400" />
+          </div>
+          <div className="absolute top-56 left-16 w-11 h-11 bg-zinc-800 rounded-xl overflow-hidden border border-zinc-700 shadow-xl">
+            <div className="w-full h-full bg-linear-to-br from-amber-200 to-amber-300" />
+          </div>
+
+          {/* Content */}
+          <div className="absolute bottom-6 left-6 right-6">
+            <h3 className="text-2xl font-bold text-white mb-3">
+              WORLDWIDE<br />FINANCIAL ACCESS
+            </h3>
+            <p className="text-zinc-500 text-sm leading-relaxed">
+              Gain access to financial services available in nearly every part of the world.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Desktop Layout */}
+      <div className="hidden md:block relative z-10 w-full max-w-380 mx-auto px-8">
         {/* Grid Layout - matching the image exactly */}
         <div className="flex gap-6 items-end">
           {/* Left Column */}

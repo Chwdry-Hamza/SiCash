@@ -29,32 +29,61 @@ export default function BottomNav() {
   }, []);
 
   return (
-    <div className="fixed bottom-6 left-0 right-0 flex items-center justify-center gap-4 px-6 z-50">
-      {/* Main Navigation Bar */}
-      <nav className="w-full max-w-380 bg-zinc-900/90 backdrop-blur-md rounded-2xl px-8 py-5 flex items-center justify-between">
-        {/* Logo */}
-        <div className="text-amber-100 font-bold text-xl tracking-tight">
-          
-          <Link href="/" className="text-amber-100 font-bold text-2xl tracking-tight hover:text-white transition-colors">
-          SICASH
-          </Link>
+    <>
+      {/* Mobile Bottom Nav - Always visible, constant on all pages */}
+      <nav
+        className="mobile-bottom-nav"
+        style={{
+          position: 'fixed',
+          bottom: '16px',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          zIndex: 2147483647,
+          backgroundColor: 'rgba(24, 24, 27, 0.95)',
+          backdropFilter: 'blur(12px)',
+          WebkitBackdropFilter: 'blur(12px)',
+          borderRadius: '16px',
+          border: '1px solid rgba(63, 63, 70, 0.5)',
+          boxShadow: '0 8px 32px rgba(0, 0, 0, 0.4)',
+          display: 'flex',
+          width: 'calc(100% - 32px)',
+          maxWidth: '340px',
+        }}
+      >
+        <div className="flex items-center justify-between px-5 py-3 w-full">
+          <span className="text-amber-100 font-black text-lg tracking-tight">SICASH</span>
+          <a href="https://apps.apple.com/app/sicash" target="_blank" rel="noopener noreferrer" className="px-5 py-2.5 bg-linear-to-b from-zinc-200 to-zinc-400 text-zinc-900 font-bold text-xs tracking-wider rounded-lg shadow-md hover:from-zinc-100 hover:to-zinc-300 transition-all">
+            GET THE APP
+          </a>
         </div>
-
-        {/* Navigation Items */}
-        <div className="flex items-center gap-32">
-          <NavItem icon={<CardIcon />} label="How to pay" href="#payment" isActive={activeSection === "payment"} />
-          <NavItem icon={<SendIcon />} label="Send" href="#transfer" isActive={activeSection === "transfer"} />
-          <NavItem icon={<CryptoIcon />} label="Crypto" href="#crypto" isActive={activeSection === "crypto"} />
-          <NavItem icon={<EarnIcon />} label="Earn" href="#earn" isActive={activeSection === "earn"} />
-          <NavItem icon={<HubIcon />} label="Hub" href="#hub" isActive={activeSection === "hub"} />
-        </div>
-
-        {/* CTA Button */}
-        <a href="https://apps.apple.com/app/sicash" target="_blank" rel="noopener noreferrer" className="bg-linear-to-b from-zinc-200 to-zinc-400 text-black font-semibold px-8 py-3.5 text-base rounded-xl hover:from-zinc-100 hover:to-zinc-300 transition-all">
-          GET SICASH APP
-        </a>
       </nav>
-    </div>
+
+      {/* Desktop Bottom Nav */}
+      <div className="hidden md:flex fixed bottom-6 left-0 right-0 items-center justify-center gap-4 px-6 z-50">
+        <nav className="w-full max-w-380 bg-zinc-900/90 backdrop-blur-md rounded-2xl px-8 py-5 flex items-center justify-between">
+          {/* Logo */}
+          <div className="text-amber-100 font-bold text-xl tracking-tight">
+            <Link href="/" className="text-amber-100 font-bold text-2xl tracking-tight hover:text-white transition-colors">
+              SICASH
+            </Link>
+          </div>
+
+          {/* Navigation Items */}
+          <div className="flex items-center gap-32">
+            <NavItem icon={<CardIcon />} label="How to pay" href="#payment" isActive={activeSection === "payment"} />
+            <NavItem icon={<SendIcon />} label="Send" href="#transfer" isActive={activeSection === "transfer"} />
+            <NavItem icon={<CryptoIcon />} label="Crypto" href="#crypto" isActive={activeSection === "crypto"} />
+            <NavItem icon={<EarnIcon />} label="Earn" href="#earn" isActive={activeSection === "earn"} />
+            <NavItem icon={<HubIcon />} label="Hub" href="#hub" isActive={activeSection === "hub"} />
+          </div>
+
+          {/* CTA Button */}
+          <a href="https://apps.apple.com/app/sicash" target="_blank" rel="noopener noreferrer" className="bg-linear-to-b from-zinc-200 to-zinc-400 text-black font-semibold px-8 py-3.5 text-base rounded-xl hover:from-zinc-100 hover:to-zinc-300 transition-all">
+            GET SICASH APP
+          </a>
+        </nav>
+      </div>
+    </>
   );
 }
 

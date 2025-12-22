@@ -7,14 +7,20 @@ export default function OTCDeskPage() {
       {/* Hero Section */}
       <section className="relative min-h-screen overflow-hidden">
         {/* Background Gradient */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-900/50 to-amber-100/50" />
-        <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-amber-50 via-amber-100/30 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-b from-black via-zinc-900/50 to-amber-100/50" />
+        <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-linear-to-t from-amber-50 via-amber-100/30 to-transparent" />
 
         {/* Header */}
-        <header className="relative z-10 w-full max-w-410 mx-auto px-8 py-8">
-          <Link href="/" className="text-white font-black text-2xl tracking-tight hover:text-zinc-300 transition-colors">
+        <header className="relative z-10 w-full max-w-380 mx-auto px-8 py-8 flex items-center justify-between">
+          <Link href="/" className="text-amber-100 font-bold text-2xl tracking-tight hover:text-white transition-colors">
             SICASH
           </Link>
+          <button className="flex items-center gap-2 text-zinc-300 hover:text-white transition-colors">
+            English
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
         </header>
 
         {/* Hero Content */}
@@ -31,13 +37,13 @@ export default function OTCDeskPage() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="#demo"
-              className="px-10 py-4 bg-zinc-600/60 hover:bg-zinc-500/60 text-white font-bold text-sm tracking-wider backdrop-blur-sm rounded transition-colors min-w-[200px]"
+              className="px-10 py-4 bg-zinc-600/60 hover:bg-zinc-500/60 text-white font-bold text-sm tracking-wider backdrop-blur-sm rounded transition-colors min-w-50"
             >
               REQUEST A DEMO
             </Link>
             <Link
               href="#account"
-              className="px-10 py-4 bg-zinc-700/60 hover:bg-zinc-600/60 text-white font-bold text-sm tracking-wider backdrop-blur-sm rounded transition-colors min-w-[200px]"
+              className="px-10 py-4 bg-zinc-700/60 hover:bg-zinc-600/60 text-white font-bold text-sm tracking-wider backdrop-blur-sm rounded transition-colors min-w-50"
             >
               OPEN AN ACCOUNT
             </Link>
@@ -47,8 +53,8 @@ export default function OTCDeskPage() {
         {/* Crypto Coins */}
         {/* Tether - Top Right */}
         <div className="absolute top-[35%] right-[12%] w-14 h-14 md:w-18 md:h-18 lg:w-20 lg:h-20 z-20">
-          <div className="w-full h-full rounded-full bg-gradient-to-b from-zinc-200 via-zinc-400 to-zinc-500 shadow-[0_8px_30px_rgba(0,0,0,0.4)] flex items-center justify-center transform -rotate-12 border-2 border-zinc-300/50">
-            <div className="w-[85%] h-[85%] rounded-full bg-gradient-to-b from-zinc-300 to-zinc-400 flex items-center justify-center">
+          <div className="w-full h-full rounded-full bg-linear-to-b from-zinc-200 via-zinc-400 to-zinc-500 shadow-[0_8px_30px_rgba(0,0,0,0.4)] flex items-center justify-center transform -rotate-12 border-2 border-zinc-300/50">
+            <div className="w-[85%] h-[85%] rounded-full bg-linear-to-b from-zinc-300 to-zinc-400 flex items-center justify-center">
               <span className="text-zinc-600 font-bold text-xl md:text-2xl">₮</span>
             </div>
           </div>
@@ -56,8 +62,8 @@ export default function OTCDeskPage() {
 
         {/* Bitcoin - Right */}
         <div className="absolute top-[42%] right-[5%] w-24 h-24 md:w-32 md:h-32 lg:w-36 lg:h-36 z-20">
-          <div className="w-full h-full rounded-full bg-gradient-to-b from-amber-300 via-amber-500 to-amber-700 shadow-[0_12px_40px_rgba(0,0,0,0.5)] flex items-center justify-center border-4 border-amber-400/50">
-            <div className="w-[88%] h-[88%] rounded-full bg-gradient-to-b from-amber-400 to-amber-600 flex items-center justify-center">
+          <div className="w-full h-full rounded-full bg-linear-to-b from-amber-300 via-amber-500 to-amber-700 shadow-[0_12px_40px_rgba(0,0,0,0.5)] flex items-center justify-center border-4 border-amber-400/50">
+            <div className="w-[88%] h-[88%] rounded-full bg-linear-to-b from-amber-400 to-amber-600 flex items-center justify-center">
               <span className="text-amber-900 font-bold text-4xl md:text-5xl">₿</span>
             </div>
           </div>
@@ -65,8 +71,8 @@ export default function OTCDeskPage() {
 
         {/* Binance - Right Middle */}
         <div className="absolute top-[55%] right-[10%] w-16 h-16 md:w-22 md:h-22 lg:w-24 lg:h-24 z-20">
-          <div className="w-full h-full rounded-full bg-gradient-to-b from-zinc-600 via-zinc-700 to-zinc-900 shadow-[0_10px_35px_rgba(0,0,0,0.5)] flex items-center justify-center border-2 border-zinc-500/50">
-            <div className="w-[85%] h-[85%] rounded-full bg-gradient-to-b from-zinc-700 to-zinc-800 flex items-center justify-center">
+          <div className="w-full h-full rounded-full bg-linear-to-b from-zinc-600 via-zinc-700 to-zinc-900 shadow-[0_10px_35px_rgba(0,0,0,0.5)] flex items-center justify-center border-2 border-zinc-500/50">
+            <div className="w-[85%] h-[85%] rounded-full bg-linear-to-b from-zinc-700 to-zinc-800 flex items-center justify-center">
               <span className="text-amber-400 font-bold text-2xl md:text-3xl">◆</span>
             </div>
           </div>
@@ -74,8 +80,8 @@ export default function OTCDeskPage() {
 
         {/* Gold Coin (IOTA style) - Center */}
         <div className="absolute top-[58%] left-1/2 -translate-x-1/2 w-36 h-36 md:w-48 md:h-48 lg:w-56 lg:h-56 z-20">
-          <div className="w-full h-full rounded-full bg-gradient-to-b from-amber-300 via-amber-500 to-amber-800 shadow-[0_15px_50px_rgba(0,0,0,0.6)] flex items-center justify-center transform rotate-[15deg] border-4 border-amber-400/40">
-            <div className="w-[92%] h-[92%] rounded-full bg-gradient-to-br from-amber-400 via-amber-500 to-amber-700 flex items-center justify-center">
+          <div className="w-full h-full rounded-full bg-linear-to-b from-amber-300 via-amber-500 to-amber-800 shadow-[0_15px_50px_rgba(0,0,0,0.6)] flex items-center justify-center transform rotate-15 border-4 border-amber-400/40">
+            <div className="w-[92%] h-[92%] rounded-full bg-linear-to-br from-amber-400 via-amber-500 to-amber-700 flex items-center justify-center">
               <div className="grid grid-cols-3 gap-1.5 md:gap-2">
                 {[...Array(9)].map((_, i) => (
                   <div key={i} className="w-3 h-3 md:w-4 md:h-4 lg:w-5 lg:h-5 bg-amber-800/50 rounded-sm shadow-inner" />
@@ -87,8 +93,8 @@ export default function OTCDeskPage() {
 
         {/* Ethereum - Left */}
         <div className="absolute top-[60%] left-[18%] w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 z-20">
-          <div className="w-full h-full rounded-full bg-gradient-to-b from-white via-zinc-100 to-zinc-300 shadow-[0_12px_45px_rgba(0,0,0,0.5)] flex items-center justify-center border-4 border-white/60">
-            <div className="w-[90%] h-[90%] rounded-full bg-gradient-to-b from-white to-zinc-200 flex items-center justify-center">
+          <div className="w-full h-full rounded-full bg-linear-to-b from-white via-zinc-100 to-zinc-300 shadow-[0_12px_45px_rgba(0,0,0,0.5)] flex items-center justify-center border-4 border-white/60">
+            <div className="w-[90%] h-[90%] rounded-full bg-linear-to-b from-white to-zinc-200 flex items-center justify-center">
               <span className="text-zinc-600 text-5xl md:text-6xl lg:text-7xl drop-shadow-lg">◇</span>
             </div>
           </div>
@@ -96,8 +102,8 @@ export default function OTCDeskPage() {
 
         {/* Ripple - Right Bottom */}
         <div className="absolute top-[72%] right-[18%] w-28 h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 z-20">
-          <div className="w-full h-full rounded-full bg-gradient-to-b from-zinc-200 via-zinc-400 to-zinc-600 shadow-[0_12px_40px_rgba(0,0,0,0.5)] flex items-center justify-center transform -rotate-[15deg] border-3 border-zinc-300/40">
-            <div className="w-[90%] h-[90%] rounded-full bg-gradient-to-b from-zinc-300 to-zinc-500 flex items-center justify-center">
+          <div className="w-full h-full rounded-full bg-linear-to-b from-zinc-200 via-zinc-400 to-zinc-600 shadow-[0_12px_40px_rgba(0,0,0,0.5)] flex items-center justify-center transform -rotate-15 border-3 border-zinc-300/40">
+            <div className="w-[90%] h-[90%] rounded-full bg-linear-to-b from-zinc-300 to-zinc-500 flex items-center justify-center">
               <div className="flex items-center gap-2">
                 <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-zinc-600 shadow-inner" />
                 <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-zinc-600 shadow-inner" />
@@ -109,13 +115,14 @@ export default function OTCDeskPage() {
       </section>
 
       {/* Features Section */}
-      <section className="bg-gradient-to-b from-amber-50 via-amber-100 to-amber-200 py-24">
-        <div className="w-full max-w-7xl mx-auto px-8">
+      <section className="bg-linear-to-b from-amber-50 via-amber-100 to-white py-24">
+        <div className="w-full max-w-400 mx-auto px-8">
           <div className="flex flex-col lg:flex-row gap-16 items-center">
             {/* Left Side - Features */}
             <div className="flex-1">
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-zinc-900 mb-16 leading-tight italic">
-                WE SIMPLIFY FIAT-CRYPTO<br />OPERATIONS
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-zinc-900 mb-16 leading-tight whitespace-nowrap">
+                <span className="block">WE SIMPLIFY FIAT-CRYPTO</span>
+                <span className="block">OPERATIONS</span>
               </h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -172,7 +179,7 @@ export default function OTCDeskPage() {
                 <div className="relative">
                   {/* Screen */}
                   <div className="bg-zinc-900 rounded-t-xl p-2 shadow-2xl">
-                    <div className="bg-zinc-800 rounded-lg p-4 aspect-[16/10]">
+                    <div className="bg-zinc-800 rounded-lg p-4 aspect-16/10">
                       {/* Dashboard Content */}
                       <div className="h-full flex flex-col">
                         {/* Top Stats */}
@@ -207,10 +214,274 @@ export default function OTCDeskPage() {
                     </div>
                   </div>
                   {/* Laptop Base */}
-                  <div className="bg-gradient-to-b from-zinc-300 to-zinc-400 h-4 rounded-b-xl mx-8"></div>
-                  <div className="bg-gradient-to-b from-zinc-400 to-zinc-300 h-2 rounded-b-lg mx-16"></div>
+                  <div className="bg-linear-to-b from-zinc-300 to-zinc-400 h-4 rounded-b-xl mx-8"></div>
+                  <div className="bg-linear-to-b from-zinc-400 to-zinc-300 h-2 rounded-b-lg mx-16"></div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="bg-black py-32 rounded-t-[80px] -mt-16 relative z-10">
+        <div className="w-full max-w-400 mx-auto px-8">
+          {/* Title */}
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-amber-100 leading-tight tracking-wide text-center mb-20">
+            <span className="block">A SIMPLE & STRAIGHTFORWARD</span>
+            <span className="block">PROCESS</span>
+          </h2>
+
+          {/* Content */}
+          <div className="flex flex-col lg:flex-row gap-16 items-center">
+            {/* Left Side - Images */}
+            <div className="flex-1 relative min-h-112.5">
+              {/* Fingerprint Card - 3D tilted */}
+              <div className="absolute top-0 left-1/2 -translate-x-1/4 w-80 h-55" style={{transform: 'perspective(1000px) rotateX(10deg) rotateY(-15deg) rotateZ(5deg)'}}>
+                <div className="w-full h-full bg-linear-to-br from-zinc-700 via-zinc-800 to-zinc-900 rounded-2xl shadow-[0_25px_50px_rgba(0,0,0,0.5)] border border-zinc-600/30 flex items-center justify-center">
+                  {/* Fingerprint SVG */}
+                  <svg viewBox="0 0 80 100" className="w-24 h-32 opacity-50">
+                    <path d="M40 5 C20 5 10 25 10 50 C10 75 20 95 40 95" stroke="#aaa" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                    <path d="M40 15 C25 15 18 30 18 50 C18 70 25 85 40 85" stroke="#999" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                    <path d="M40 25 C30 25 25 35 25 50 C25 65 30 75 40 75" stroke="#888" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                    <path d="M40 35 C35 35 32 42 32 50 C32 58 35 65 40 65" stroke="#777" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                    <path d="M40 5 C60 5 70 25 70 50 C70 75 60 95 40 95" stroke="#aaa" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                    <path d="M40 15 C55 15 62 30 62 50 C62 70 55 85 40 85" stroke="#999" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                    <path d="M40 25 C50 25 55 35 55 50 C55 65 50 75 40 75" stroke="#888" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                    <path d="M40 35 C45 35 48 42 48 50 C48 58 45 65 40 65" stroke="#777" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                  </svg>
+                </div>
+                {/* Glass reflection */}
+                <div className="absolute inset-0 bg-linear-to-br from-white/5 to-transparent rounded-2xl pointer-events-none"></div>
+              </div>
+
+              {/* Lock Button with Glow Ring */}
+              <div className="absolute bottom-0 left-0 w-48 h-48">
+                {/* Outer glow */}
+                <div className="absolute inset-0 rounded-full bg-linear-to-b from-amber-200/20 via-transparent to-amber-100/10 blur-sm"></div>
+                {/* Outer ring */}
+                <div className="absolute inset-2 rounded-full border-2 border-amber-100/40"></div>
+                {/* Dark middle */}
+                <div className="absolute inset-6 rounded-full bg-linear-to-b from-zinc-700 to-zinc-900 border border-zinc-600"></div>
+                {/* Inner button */}
+                <div className="absolute inset-10 rounded-full bg-linear-to-b from-zinc-600 to-zinc-800 flex items-center justify-center shadow-inner">
+                  <div className="w-14 h-14 bg-linear-to-b from-white to-zinc-200 rounded-xl flex items-center justify-center shadow-lg">
+                    <svg className="w-8 h-8 text-zinc-700" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Side - Steps */}
+            <div className="flex-1 space-y-10">
+              {/* Step 1 */}
+              <div>
+                <div className="w-12 h-12 bg-zinc-800 rounded-lg flex items-center justify-center mb-4 border border-zinc-700">
+                  <svg className="w-6 h-6 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+                <h3 className="text-white font-bold text-2xl mb-3">ONBOARDING</h3>
+                <p className="text-zinc-400 text-base">Submit your documents and complete the KYB process through our secure platform</p>
+              </div>
+
+              {/* Step 2 */}
+              <div>
+                <div className="w-12 h-12 bg-zinc-800 rounded-lg flex items-center justify-center mb-4 border border-zinc-700">
+                  <svg className="w-6 h-6 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                  </svg>
+                </div>
+                <h3 className="text-white font-bold text-2xl mb-3">ACTIVATE YOUR ACCOUNT</h3>
+                <p className="text-zinc-400 text-base">Gain access to your IBAN account</p>
+              </div>
+
+              {/* Step 3 */}
+              <div>
+                <div className="w-12 h-12 bg-zinc-800 rounded-lg flex items-center justify-center mb-4 border border-zinc-700">
+                  <svg className="w-6 h-6 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                  </svg>
+                </div>
+                <h3 className="text-white font-bold text-2xl mb-3">MANAGE YOUR TRANSACTION</h3>
+                <p className="text-zinc-400 text-base">Exchange fiat and crypto or withdraw funds with full control at every step</p>
+              </div>
+
+              {/* Button */}
+              <button className="px-8 py-4 bg-zinc-700 hover:bg-zinc-600 text-white font-bold text-sm tracking-wider rounded transition-colors mt-6">
+                GET STARTED NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Solutions Section */}
+      <section className="bg-black py-32 relative overflow-hidden">
+        {/* Light Streak Background Effect */}
+        <div className="absolute inset-0">
+          <div className="absolute top-1/2 left-0 right-0 h-100 -translate-y-1/2 bg-linear-to-r from-transparent via-amber-100/20 to-transparent transform -skew-y-6 blur-xl"></div>
+          <div className="absolute top-1/2 left-0 right-0 h-50 -translate-y-1/2 bg-linear-to-r from-transparent via-amber-50/30 to-transparent transform -skew-y-6 blur-md"></div>
+          <div className="absolute top-[45%] left-[20%] right-[20%] h-25 bg-linear-to-r from-transparent via-white/20 to-transparent transform -skew-y-6 blur-sm"></div>
+        </div>
+
+        <div className="w-full max-w-400 mx-auto px-8 relative z-10">
+          {/* Title */}
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-wide text-center mb-24">
+            <span className="text-white">SOLUTIONS </span>
+            <span className="text-amber-200">THAT SUPPORT YOUR</span>
+            <span className="block text-amber-200">BUSINESS </span>
+            <span className="text-white">GROWTH</span>
+          </h2>
+
+          {/* Three Features */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+            {/* REABILITY */}
+            <div className="flex flex-col items-center">
+              <div className="w-14 h-14 border-2 border-zinc-600 rounded-xl flex items-center justify-center mb-6">
+                <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <h3 className="text-white font-bold text-2xl mb-3">REABILITY</h3>
+              <p className="text-zinc-400 text-base">Trusted processes that meet<br />international standards</p>
+            </div>
+
+            {/* SUPPORT */}
+            <div className="flex flex-col items-center">
+              <div className="w-14 h-14 border-2 border-zinc-600 rounded-xl flex items-center justify-center mb-6">
+                <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                </svg>
+              </div>
+              <h3 className="text-white font-bold text-2xl mb-3">SUPPORT</h3>
+              <p className="text-zinc-400 text-base">A dedicated account manager<br />for every client</p>
+            </div>
+
+            {/* FLEXIBILITY */}
+            <div className="flex flex-col items-center">
+              <div className="w-14 h-14 border-2 border-zinc-600 rounded-xl flex items-center justify-center mb-6">
+                <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM14 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1v-4zM14 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z" />
+                </svg>
+              </div>
+              <h3 className="text-white font-bold text-2xl mb-3">FLEXIBILITY</h3>
+              <p className="text-zinc-400 text-base">Tarif structures and transaction solutions<br />tailored to your requirements</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Form Section */}
+      <section className="bg-black py-32 relative overflow-hidden">
+        {/* Particle/Glow Background Effect */}
+        <div className="absolute inset-0">
+          {/* Main glow */}
+          <div className="absolute top-1/2 left-1/4 -translate-x-1/2 -translate-y-1/2 w-150 h-150 bg-gradient-radial from-amber-200/30 via-amber-100/10 to-transparent rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 right-1/4 w-100 h-100 bg-gradient-radial from-amber-100/20 via-transparent to-transparent rounded-full blur-2xl"></div>
+
+          {/* Particle dots */}
+          <div className="absolute inset-0">
+            <div className="absolute w-1 h-1 bg-white/40 rounded-full" style={{left: '12%', top: '15%', opacity: 0.4}} />
+            <div className="absolute w-1 h-1 bg-white/60 rounded-full" style={{left: '8%', top: '25%', opacity: 0.6}} />
+            <div className="absolute w-1 h-1 bg-white/30 rounded-full" style={{left: '25%', top: '12%', opacity: 0.3}} />
+            <div className="absolute w-1 h-1 bg-white/50 rounded-full" style={{left: '18%', top: '35%', opacity: 0.5}} />
+            <div className="absolute w-1 h-1 bg-white/40 rounded-full" style={{left: '32%', top: '20%', opacity: 0.4}} />
+            <div className="absolute w-1 h-1 bg-white/70 rounded-full" style={{left: '15%', top: '45%', opacity: 0.7}} />
+            <div className="absolute w-1 h-1 bg-white/35 rounded-full" style={{left: '40%', top: '30%', opacity: 0.35}} />
+            <div className="absolute w-1 h-1 bg-white/55 rounded-full" style={{left: '22%', top: '55%', opacity: 0.55}} />
+            <div className="absolute w-1 h-1 bg-white/45 rounded-full" style={{left: '35%', top: '42%', opacity: 0.45}} />
+            <div className="absolute w-1 h-1 bg-white/65 rounded-full" style={{left: '10%', top: '65%', opacity: 0.65}} />
+            <div className="absolute w-1 h-1 bg-white/30 rounded-full" style={{left: '28%', top: '70%', opacity: 0.3}} />
+            <div className="absolute w-1 h-1 bg-white/50 rounded-full" style={{left: '45%', top: '25%', opacity: 0.5}} />
+            <div className="absolute w-1 h-1 bg-white/40 rounded-full" style={{left: '38%', top: '58%', opacity: 0.4}} />
+            <div className="absolute w-1 h-1 bg-white/60 rounded-full" style={{left: '20%', top: '78%', opacity: 0.6}} />
+            <div className="absolute w-1 h-1 bg-white/35 rounded-full" style={{left: '50%', top: '35%', opacity: 0.35}} />
+            <div className="absolute w-1 h-1 bg-white/55 rounded-full" style={{left: '5%', top: '50%', opacity: 0.55}} />
+            <div className="absolute w-1 h-1 bg-white/45 rounded-full" style={{left: '42%', top: '68%', opacity: 0.45}} />
+            <div className="absolute w-1 h-1 bg-white/70 rounded-full" style={{left: '30%', top: '85%', opacity: 0.7}} />
+            <div className="absolute w-1 h-1 bg-white/25 rounded-full" style={{left: '48%', top: '48%', opacity: 0.25}} />
+            <div className="absolute w-1 h-1 bg-white/60 rounded-full" style={{left: '14%', top: '88%', opacity: 0.6}} />
+            <div className="absolute w-1.5 h-1.5 bg-white/50 rounded-full" style={{left: '26%', top: '38%', opacity: 0.5}} />
+            <div className="absolute w-1.5 h-1.5 bg-white/40 rounded-full" style={{left: '36%', top: '52%', opacity: 0.4}} />
+            <div className="absolute w-0.5 h-0.5 bg-white/60 rounded-full" style={{left: '44%', top: '18%', opacity: 0.6}} />
+            <div className="absolute w-0.5 h-0.5 bg-white/45 rounded-full" style={{left: '16%', top: '72%', opacity: 0.45}} />
+          </div>
+        </div>
+
+        <div className="w-full max-w-400 mx-auto px-8 relative z-10">
+          <div className="flex flex-col lg:flex-row gap-16 items-center">
+            {/* Left Side - Title */}
+            <div className="flex-1">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-amber-100 leading-tight tracking-wide">
+                <span className="block">BOOK A FREE DEMO</span>
+                <span className="block">WITH AN EXPERT</span>
+              </h2>
+            </div>
+
+            {/* Right Side - Form */}
+            <div className="flex-1 w-full max-w-lg">
+              <form className="space-y-8">
+                {/* First Name */}
+                <div>
+                  <label className="text-zinc-400 text-sm tracking-wider mb-2 block">FIRST NAME</label>
+                  <input
+                    type="text"
+                    placeholder="Jon Doe"
+                    className="w-full bg-transparent border-b border-zinc-700 text-white py-3 focus:outline-none focus:border-amber-200 transition-colors placeholder:text-zinc-600"
+                  />
+                </div>
+
+                {/* Business Email */}
+                <div>
+                  <label className="text-zinc-400 text-sm tracking-wider mb-2 block">BUSINESS EMAIL</label>
+                  <input
+                    type="email"
+                    placeholder="JonDoe@company.com"
+                    className="w-full bg-transparent border-b border-zinc-700 text-white py-3 focus:outline-none focus:border-amber-200 transition-colors placeholder:text-zinc-600"
+                  />
+                </div>
+
+                {/* Phone Number */}
+                <div>
+                  <label className="text-zinc-400 text-sm tracking-wider mb-2 block">PHONE NUMBER</label>
+                  <input
+                    type="tel"
+                    placeholder="+1 (555) 000-0000"
+                    className="w-full bg-transparent border-b border-zinc-700 text-white py-3 focus:outline-none focus:border-amber-200 transition-colors placeholder:text-zinc-600"
+                  />
+                </div>
+
+                {/* Language Selection */}
+                <div>
+                  <label className="text-zinc-400 text-sm tracking-wider mb-4 block">* IN WHAT LANGUAGE SHOULD WE ANSWER?</label>
+                  <div className="flex gap-8">
+                    <label className="flex items-center gap-2 text-white cursor-pointer">
+                      <input type="radio" name="language" value="english" className="w-4 h-4 accent-amber-200" defaultChecked />
+                      <span>English</span>
+                    </label>
+                    <label className="flex items-center gap-2 text-white cursor-pointer">
+                      <input type="radio" name="language" value="ukranian" className="w-4 h-4 accent-amber-200" />
+                      <span>Ukranian</span>
+                    </label>
+                    <label className="flex items-center gap-2 text-white cursor-pointer">
+                      <input type="radio" name="language" value="russian" className="w-4 h-4 accent-amber-200" />
+                      <span>Russian</span>
+                    </label>
+                  </div>
+                </div>
+
+                {/* Submit Button */}
+                <button
+                  type="submit"
+                  className="px-8 py-4 bg-zinc-700 hover:bg-zinc-600 text-white font-bold text-sm tracking-wider rounded transition-colors"
+                >
+                  SEND MESSAGE
+                </button>
+              </form>
             </div>
           </div>
         </div>

@@ -57,3 +57,22 @@ body {
 .policy-scroll::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* Fix for iOS Safari fixed positioning */
+@supports (-webkit-touch-callout: none) {
+  .fixed {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+/* Mobile Bottom Nav - Show on mobile, hide on desktop */
+.mobile-bottom-nav {
+  display: flex !important;
+}
+
+@media (min-width: 768px) {
+  .mobile-bottom-nav {
+    display: none !important;
+  }
+}
