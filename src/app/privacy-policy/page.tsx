@@ -5,18 +5,18 @@ export default function PrivacyPolicyPage() {
   return (
     <main className="bg-white min-h-screen overflow-y-auto policy-scroll">
       {/* Header */}
-      <header className="w-full max-w-410 mx-auto px-8 py-8">
-        <Link href="/" className="text-zinc-900 font-black text-2xl tracking-tight hover:text-zinc-600 transition-colors">
+      <header className="w-full max-w-410 mx-auto px-4 md:px-8 py-4 md:py-8">
+        <Link href="/" className="text-zinc-900 font-black text-xl md:text-2xl tracking-tight hover:text-zinc-600 transition-colors">
           SICASH
         </Link>
       </header>
 
       {/* Title Section */}
-      <section className="w-full max-w-410 mx-auto px-8 pt-24 pb-16">
-        <h1 className="text-5xl md:text-6xl font-black text-zinc-900 mb-8">
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pt-12 md:pt-24 pb-8 md:pb-16">
+        <h1 className="text-4xl md:text-6xl font-black text-zinc-900 mb-6 md:mb-8">
           PRIVACY POLICY
         </h1>
-        <p className="text-zinc-900 font-semibold mb-6">Effective: 08 May 2024</p>
+        <p className="text-zinc-900 font-semibold mb-4 md:mb-6">Effective: 08 May 2024</p>
         <p className="text-zinc-700 leading-relaxed mb-6">
           This Privacy Policy governs your use of products, services, content, features, technologies or functions offered by SICASH POLAND SP&Oacute;LKA Z OGRANICZON&Aogon; ODPOWIEDZIALNO&Sacute;CI&Aogon; and all related sites, applications, and services (collectively &quot;SICASH Services&quot;) (including, without limitation, when you provide any information in relation to your use of SICASH Services or SICASH App).
         </p>
@@ -26,11 +26,11 @@ export default function PrivacyPolicyPage() {
       </section>
 
       {/* Content Section */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-24">
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-16 md:pb-24">
 
         {/* 1. Overview */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-black text-zinc-900 mb-6">1. OVERVIEW</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-xl md:text-2xl font-black text-zinc-900 mb-4 md:mb-6">1. OVERVIEW</h2>
           <p className="text-zinc-700 leading-relaxed mb-6">
             In order to operate the SICASH Services, to enforce our Terms of Service and to reduce the risk of fraud, SICASH POLAND SP&Oacute;LKA Z OGRANICZON&Aogon; ODPOWIEDZIALNO&Sacute;CI&Aogon; (&quot;SICASH&quot;, &quot;our&quot;, &quot;us&quot; or &quot;we&quot;), the data controller, must ask you to provide us with information about yourself and information about any other financial instruments that may be connected to your SICASH wallet or SICASH app. By consenting to, and agreeing to the terms of, this Privacy Policy, you expressly consent and agree to us processing your data in the manner set out herein. This Privacy Policy describes the information we collect and how we use that information. SICASH takes the processing of your information very seriously and will use your information only in accordance with the terms of this Privacy Policy. For the purposes of this Privacy Policy, the term &quot;information&quot; means any confidential and/or personally identifiable information or other information related to users of SICASH Services.
           </p>
@@ -52,8 +52,8 @@ export default function PrivacyPolicyPage() {
         </div>
 
         {/* 2. Information We Collect */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-black text-zinc-900 mb-6">2. INFORMATION WE COLLECT</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-xl md:text-2xl font-black text-zinc-900 mb-4 md:mb-6">2. INFORMATION WE COLLECT</h2>
 
           <p className="text-zinc-700 leading-relaxed mb-6">
             <strong>Required Information:</strong> To open an SICASH Account or use the SICASH Services, you must provide your name, address, phone number, the details of your identification document, and email address and the details about your business, where applicable. In order to top-up your balance with an SICASH-supported account or make transactions through the SICASH Services, you must provide (where applicable) your bank (or another payment instrument) account information. We may also ask you to choose different security questions to answer (such as your city of birth or your pet&apos;s name).
@@ -145,8 +145,8 @@ export default function PrivacyPolicyPage() {
         </div>
 
         {/* 3. How We Use The Information We Collect */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-black text-zinc-900 mb-6">3. HOW WE USE THE INFORMATION WE COLLECT</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-xl md:text-2xl font-black text-zinc-900 mb-4 md:mb-6">3. HOW WE USE THE INFORMATION WE COLLECT</h2>
 
           <p className="text-zinc-700 leading-relaxed mb-6">
             <strong>Internal Uses:</strong> Our primary purpose in collecting your information is to provide you with a safe, smooth, efficient, and customised experience. You agree that we may use your personal information to:
@@ -197,16 +197,16 @@ export default function PrivacyPolicyPage() {
         </div>
 
         {/* 4. Marketing */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-black text-zinc-900 mb-6">4. MARKETING</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-xl md:text-2xl font-black text-zinc-900 mb-4 md:mb-6">4. MARKETING</h2>
           <p className="text-zinc-700 leading-relaxed">
             We may combine your information with information we collect from other companies and use it to improve and personalise the SICASH Services. If you don&apos;t wish to receive marketing communications from us or participate in our ad-customization programs, simply update your preferences on your devices used to access SICASH Services.
           </p>
         </div>
 
         {/* 5. How We Share Information With Other SICASH Users */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-black text-zinc-900 mb-6">5. HOW WE SHARE INFORMATION WITH OTHER SICASH USERS</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-xl md:text-2xl font-black text-zinc-900 mb-4 md:mb-6">5. HOW WE SHARE INFORMATION WITH OTHER SICASH USERS</h2>
           <p className="text-zinc-700 leading-relaxed mb-6">
             If you are a registered SICASH user and you are sending funds to or receiving funds from an SICASH-powered account, as a part of the transaction, the name, possible profile picture, and pertinent transactional details of both sides of the transaction will be shared as a part of transaction notification. However, your card number, bank account and other financial information will not be revealed to anyone through the SICASH Services or third parties that use the SICASH Services, except with your express permission or if we are required to do so pursuant to credit card rules, a court order or other legal process. If you would like to disable the functionality of being discovered by other SICASH customers, you can do so by adjusting your profile settings.
           </p>
@@ -219,8 +219,8 @@ export default function PrivacyPolicyPage() {
         </div>
 
         {/* 6. How We Share Information With Other Third Parties */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-black text-zinc-900 mb-6">6. HOW WE SHARE INFORMATION WITH OTHER THIRD PARTIES</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-xl md:text-2xl font-black text-zinc-900 mb-4 md:mb-6">6. HOW WE SHARE INFORMATION WITH OTHER THIRD PARTIES</h2>
           <p className="text-zinc-700 leading-relaxed mb-6">
             Just like most banks or financial/payment service providers, SICASH works with third-party service providers and other business partners, which provide important functions to us that allow us to be an easier, faster, and safer way to buy, sell, hold and send virtual currencies. We need to disclose user data to them from time to time so that the services can be performed.
           </p>
@@ -255,24 +255,24 @@ export default function PrivacyPolicyPage() {
         </div>
 
         {/* 7. Cross-Border Transfers */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-black text-zinc-900 mb-6">7. CROSS-BORDER TRANSFERS OF YOUR INFORMATION</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-xl md:text-2xl font-black text-zinc-900 mb-4 md:mb-6">7. CROSS-BORDER TRANSFERS OF YOUR INFORMATION</h2>
           <p className="text-zinc-700 leading-relaxed">
             SICASH is committed to adequately protecting your information regardless of where the data resides and to providing appropriate protection for your information where such data is transferred outside of Poland and the EEA.
           </p>
         </div>
 
         {/* 8. No Spam */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-black text-zinc-900 mb-6">8. NO SPAM</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-xl md:text-2xl font-black text-zinc-900 mb-4 md:mb-6">8. NO SPAM</h2>
           <p className="text-zinc-700 leading-relaxed">
             SICASH does not tolerate spam. We strictly enforce our Anti-Spam Policy. To report SICASH-related spam to SICASH, please contact us.
           </p>
         </div>
 
         {/* 9. Information Security */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-black text-zinc-900 mb-6">9. INFORMATION SECURITY</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-xl md:text-2xl font-black text-zinc-900 mb-4 md:mb-6">9. INFORMATION SECURITY</h2>
           <p className="text-zinc-700 leading-relaxed mb-6">
             SICASH is committed to handling your customer information with high standards of information security. We use computer safeguards such as firewalls and data encryption, we enforce physical access controls to our buildings and files, and we authorise access to personal information only for those employees who require it to fulfil their job responsibilities.
           </p>
@@ -282,16 +282,16 @@ export default function PrivacyPolicyPage() {
         </div>
 
         {/* 10. Accessing and Changing Your Information */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-black text-zinc-900 mb-6">10. ACCESSING AND CHANGING YOUR INFORMATION</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-xl md:text-2xl font-black text-zinc-900 mb-4 md:mb-6">10. ACCESSING AND CHANGING YOUR INFORMATION</h2>
           <p className="text-zinc-700 leading-relaxed">
             You can review the personal information you have provided to us and make any desired changes to such information, or to the settings for your SICASH account, at any time by logging in to your SICASH Account through your mobile banking app, selecting My Account, and changing your preferences. You can also close your SICASH account through your mobile banking app. If you close your SICASH account, we will mark your account in our database as &quot;Closed&quot;, but will keep your Account Information in our database. This is for instance necessary in order to deter fraud, by ensuring that persons who try to commit fraud will not be able to avoid detection simply by closing their account and opening a new account. However, if you close your SICASH account, your personally identifiable information will not be used by us for any further purposes, nor sold or shared with third parties, except as necessary to prevent fraud and assist law enforcement authorities, or as required by law.
           </p>
         </div>
 
         {/* 11. Your Rights */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-black text-zinc-900 mb-6">11. YOUR RIGHTS</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-xl md:text-2xl font-black text-zinc-900 mb-4 md:mb-6">11. YOUR RIGHTS</h2>
           <p className="text-zinc-700 leading-relaxed mb-4">You have a right to:</p>
           <ul className="text-zinc-700 leading-relaxed space-y-4 mb-6">
             <li>&#8226; Access the personal data we hold about you, or to get a copy of it.</li>

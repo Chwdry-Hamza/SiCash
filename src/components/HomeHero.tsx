@@ -4,10 +4,19 @@ import Image from "next/image";
 
 export default function HomeHero() {
   return (
-    <section className="relative h-screen md:min-h-screen bg-black overflow-hidden">
+    <section className="relative min-h-fit md:min-h-screen bg-black overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-black" />
-{/* 
+
+      {/* Top-left diagonal green light rays */}
+      {/* <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-[10%] -left-[20%] w-[70%] h-[50%] bg-linear-to-br from-[#76ea59]/20 via-transparent to-transparent transform -rotate-[30deg] blur-3xl"></div>
+        <div className="absolute top-[2%] -left-[10%] w-[50%] h-32 md:h-48 bg-linear-to-r from-transparent via-[#76ea59]/15 to-transparent transform -skew-y-[25deg] blur-2xl"></div>
+        <div className="absolute top-[8%] left-0 w-[40%] h-20 md:h-32 bg-linear-to-r from-transparent via-green-400/20 to-transparent transform -skew-y-[25deg] blur-xl"></div>
+        <div className="absolute top-[12%] left-[5%] w-[30%] h-12 md:h-20 bg-linear-to-r from-transparent via-green-300/10 to-transparent transform -skew-y-[25deg] blur-lg"></div>
+      </div> */}
+
+{/*
 <div className="hidden md:block absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
  <Image
   src="/T.png"
@@ -35,7 +44,7 @@ export default function HomeHero() {
       </nav>
 
       {/* Hero Content */}
-      <div className="relative z-10 w-full max-w-380 mx-auto px-4 md:px-8 pt-4 md:pt-20 pb-20 md:pb-32 flex flex-col md:flex-row items-center md:justify-between h-[calc(100vh-80px)] md:h-auto">
+      <div className="relative z-10 w-full max-w-380 mx-auto px-4 md:px-8 pt-4 md:pt-20 pb-24 md:pb-32 flex flex-col md:flex-row items-center md:justify-between">
         {/* Left Content */}
         <div className="max-w-xl text-center md:text-left order-1 md:order-1">
           <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-3 md:mb-6">

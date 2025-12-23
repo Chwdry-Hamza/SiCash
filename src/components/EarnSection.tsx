@@ -2,7 +2,7 @@
 
 export default function EarnSection() {
   return (
-    <section id="earn" className="relative bg-black min-h-screen overflow-hidden">
+    <section id="earn" className="relative bg-black md:min-h-screen overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-1/4 right-1/4 w-200 h-200 bg-amber-900/10 rounded-full blur-3xl" />
 
@@ -10,7 +10,7 @@ export default function EarnSection() {
       <div className="md:hidden absolute bottom-0 left-0 right-0 h-96 bg-linear-to-t from-amber-900/30 via-amber-800/10 to-transparent" />
 
       {/* Mobile Layout */}
-      <div className="md:hidden relative z-10 w-full px-6 pt-16 pb-32">
+      <div className="md:hidden relative z-10 w-full px-6 pt-8 pb-16">
         {/* Header */}
         <p className="text-zinc-500 text-xs tracking-[0.2em] uppercase mb-4 text-center">
           EARN WITH SICASH

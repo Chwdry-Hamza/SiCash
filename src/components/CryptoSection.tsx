@@ -2,13 +2,13 @@
 
 export default function CryptoSection() {
   return (
-    <section id="crypto" className="relative bg-black min-h-screen overflow-hidden">
+    <section id="crypto" className="relative bg-black md:min-h-screen overflow-hidden">
       {/* Desktop glow effects */}
       <div className="hidden md:block absolute top-1/2 left-0 w-200 h-200 bg-white/25 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2 z-20" />
       <div className="hidden md:block absolute top-1/2 right-0 w-200 h-200 bg-white/25 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2 z-20" />
 
       {/* Mobile Layout */}
-      <div className="md:hidden relative z-10 w-full px-4 pt-8 pb-32">
+      <div className="md:hidden relative z-10 w-full px-4 pt-8 pb-16">
         {/* Box Container */}
         <div className="bg-[#252525] rounded-4xl px-6 pt-10 pb-8">
           {/* Header */}

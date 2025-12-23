@@ -2,7 +2,7 @@
 
 export default function PaymentSection() {
   return (
-    <section id="payment" className="relative py-20 md:py-32 overflow-hidden min-h-screen md:min-h-0">
+    <section id="payment" className="relative py-12 md:py-32 overflow-hidden">
       {/* Background gradient - black to cream */}
       <div className="absolute inset-0 bg-black" />
 

@@ -2,7 +2,7 @@
 
 export default function TransferSection() {
   return (
-    <section id="transfer" className="relative bg-[#f5f0e6] py-20 md:py-32 overflow-hidden">
+    <section id="transfer" className="relative bg-[#f5f0e6] py-12 md:py-32 overflow-hidden">
       {/* Mobile Layout */}
       <div className="md:hidden relative z-10 w-full px-6">
         {/* Header */}

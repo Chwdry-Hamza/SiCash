@@ -5,33 +5,33 @@ export default function CookiePolicyPage() {
   return (
     <main className="bg-white min-h-screen overflow-y-auto policy-scroll">
       {/* Header */}
-      <header className="w-full max-w-410 mx-auto px-8 py-8">
-        <Link href="/" className="text-zinc-900 font-black text-2xl tracking-tight hover:text-zinc-600 transition-colors">
+      <header className="w-full max-w-410 mx-auto px-4 md:px-8 py-4 md:py-8">
+        <Link href="/" className="text-zinc-900 font-black text-xl md:text-2xl tracking-tight hover:text-zinc-600 transition-colors">
           SICASH
         </Link>
       </header>
 
       {/* Title Section */}
-      <section className="w-full max-w-410 mx-auto px-8 pt-24 pb-16">
-        <h1 className="text-5xl md:text-6xl font-black text-zinc-900 mb-8">
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pt-12 md:pt-24 pb-8 md:pb-16">
+        <h1 className="text-4xl md:text-6xl font-black text-zinc-900 mb-6 md:mb-8">
           COOKIE POLICY
         </h1>
       </section>
 
       {/* Content Section */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-24">
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-16 md:pb-24">
 
         {/* 1. What Are Cookies */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-black text-zinc-900 mb-6">1. WHAT ARE COOKIES?</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-2xl md:text-3xl font-black text-zinc-900 mb-4 md:mb-6">1. WHAT ARE COOKIES?</h2>
           <p className="text-zinc-700 leading-relaxed">
             Cookies are small text files that are placed on your computer or mobile device when you visit our website. They allow the website to remember your actions and preferences (such as login, language, font size, and other display preferences) over a period of time, so you don&apos;t have to keep re-entering them whenever you come back to the site or browse from one page to another.
           </p>
         </div>
 
         {/* 2. How We Use Cookies */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-black text-zinc-900 mb-6">2. HOW WE USE COOKIES</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-2xl md:text-3xl font-black text-zinc-900 mb-4 md:mb-6">2. HOW WE USE COOKIES</h2>
           <p className="text-zinc-700 leading-relaxed mb-6">
             We use cookies to ensure the proper functioning of the website, analyze traffic, and personalize content. We categorize the cookies we use as follows:
           </p>
@@ -44,8 +44,8 @@ export default function CookiePolicyPage() {
         </div>
 
         {/* 3. Cookies We Collect */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-black text-zinc-900 mb-6">3. COOKIES WE COLLECT</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-2xl md:text-3xl font-black text-zinc-900 mb-4 md:mb-6">3. COOKIES WE COLLECT</h2>
           <p className="text-zinc-700 leading-relaxed mb-8">
             Below is a detailed list of the cookies used on our website:
           </p>
@@ -147,8 +147,8 @@ export default function CookiePolicyPage() {
         </div>
 
         {/* 4. How to Control Cookies */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-black text-zinc-900 mb-6">4. HOW TO CONTROL COOKIES</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-2xl md:text-3xl font-black text-zinc-900 mb-4 md:mb-6">4. HOW TO CONTROL COOKIES</h2>
           <p className="text-zinc-700 leading-relaxed mb-4">
             You have the right to accept or reject cookies. You can set your browser to refuse all or some browser cookies, or to alert you when websites set or access cookies. If you disable or refuse cookies, please note that some parts of this website may become inaccessible or not function properly.
           </p>
@@ -158,8 +158,8 @@ export default function CookiePolicyPage() {
         </div>
 
         {/* 5. Updates to This Policy */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-black text-zinc-900 mb-6">5. UPDATES TO THIS POLICY</h2>
+        <div className="mb-10 md:mb-16">
+          <h2 className="text-2xl md:text-3xl font-black text-zinc-900 mb-4 md:mb-6">5. UPDATES TO THIS POLICY</h2>
           <p className="text-zinc-700 leading-relaxed">
             We may update this Cookie Policy from time to time. We encourage you to periodically review this page to stay informed about any changes.
           </p>

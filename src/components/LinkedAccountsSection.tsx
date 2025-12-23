@@ -2,7 +2,7 @@
 
 export default function LinkedAccountsSection() {
   return (
-    <section className="relative bg-[#f5f0e6] pt-0 pb-48 overflow-hidden">
+    <section className="relative bg-[#f5f0e6] pt-0 pb-24 md:pb-48 overflow-hidden">
       {/* Animation styles */}
       <style jsx>{`
         @keyframes float1 {

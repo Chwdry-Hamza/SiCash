@@ -5,13 +5,13 @@ export default function OTCDeskPage() {
   return (
     <main className="bg-black min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-screen overflow-hidden">
+      <section className="relative min-h-fit md:min-h-screen overflow-hidden">
         {/* Background Gradient */}
         <div className="absolute inset-0 bg-linear-to-b from-black via-zinc-900/50 to-amber-100/50" />
         <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-linear-to-t from-amber-50 via-amber-100/30 to-transparent" />
 
         {/* Header */}
-        <header className="relative z-10 w-full max-w-380 mx-auto px-8 py-8 flex items-center justify-between">
+        <header className="relative z-10 w-full max-w-380 mx-auto px-4 md:px-8 py-4 md:py-8 flex items-center justify-between">
           <Link href="/" className="text-amber-100 font-bold text-2xl tracking-tight hover:text-white transition-colors">
             SICASH
           </Link>
@@ -24,12 +24,13 @@ export default function OTCDeskPage() {
         </header>
 
         {/* Hero Content */}
-        <div className="relative z-10 w-full mx-auto px-8 pt-16 pb-8 text-center">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-white mb-6 leading-[1.1] tracking-tight whitespace-nowrap">
-            <span className="block">SECURE OTC TRADING FOR</span>
-            <span className="block">YOUR BUSINESS</span>
+        <div className="relative z-10 w-full mx-auto px-4 md:px-8 pt-20 md:pt-16 pb-16 md:pb-8 text-center">
+          <h1 className="text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-white mb-8 md:mb-6 leading-[1.1] tracking-tight">
+            <span className="block"><span>SECURE</span> OTC</span>
+            <span className="block">TRADING FOR</span>
+            <span className="block">YOUR <span className="text-amber-100">BUSINESS</span></span>
           </h1>
-          <p className="text-zinc-400 text-base md:text-lg lg:text-xl max-w-3xl mx-auto mb-10">
+          <p className="text-zinc-400 text-lg md:text-lg lg:text-xl max-w-3xl mx-auto mb-10 md:mb-10">
             Open IBAN accounts in EUR, USD and manage transactions, and take full control of your finances
           </p>
 
@@ -42,7 +43,7 @@ export default function OTCDeskPage() {
               REQUEST A DEMO
             </Link>
             <Link
-              href="#account"
+              href="#demo"
               className="px-10 py-4 bg-zinc-700/60 hover:bg-zinc-600/60 text-white font-bold text-sm tracking-wider backdrop-blur-sm rounded transition-colors min-w-50"
             >
               OPEN AN ACCOUNT
@@ -50,9 +51,9 @@ export default function OTCDeskPage() {
           </div>
         </div>
 
-        {/* Crypto Coins */}
+        {/* Crypto Coins - Hidden on mobile */}
         {/* Tether - Top Right */}
-        <div className="absolute top-[35%] right-[12%] w-14 h-14 md:w-18 md:h-18 lg:w-20 lg:h-20 z-20">
+        <div className="hidden md:flex absolute top-[35%] right-[12%] w-14 h-14 md:w-18 md:h-18 lg:w-20 lg:h-20 z-20">
           <div className="w-full h-full rounded-full bg-linear-to-b from-zinc-200 via-zinc-400 to-zinc-500 shadow-[0_8px_30px_rgba(0,0,0,0.4)] flex items-center justify-center transform -rotate-12 border-2 border-zinc-300/50">
             <div className="w-[85%] h-[85%] rounded-full bg-linear-to-b from-zinc-300 to-zinc-400 flex items-center justify-center">
               <span className="text-zinc-600 font-bold text-xl md:text-2xl">₮</span>
@@ -61,7 +62,7 @@ export default function OTCDeskPage() {
         </div>
 
         {/* Bitcoin - Right */}
-        <div className="absolute top-[42%] right-[5%] w-24 h-24 md:w-32 md:h-32 lg:w-36 lg:h-36 z-20">
+        <div className="hidden md:flex absolute top-[42%] right-[5%] w-24 h-24 md:w-32 md:h-32 lg:w-36 lg:h-36 z-20">
           <div className="w-full h-full rounded-full bg-linear-to-b from-amber-300 via-amber-500 to-amber-700 shadow-[0_12px_40px_rgba(0,0,0,0.5)] flex items-center justify-center border-4 border-amber-400/50">
             <div className="w-[88%] h-[88%] rounded-full bg-linear-to-b from-amber-400 to-amber-600 flex items-center justify-center">
               <span className="text-amber-900 font-bold text-4xl md:text-5xl">₿</span>
@@ -70,7 +71,7 @@ export default function OTCDeskPage() {
         </div>
 
         {/* Binance - Right Middle */}
-        <div className="absolute top-[55%] right-[10%] w-16 h-16 md:w-22 md:h-22 lg:w-24 lg:h-24 z-20">
+        <div className="hidden md:flex absolute top-[55%] right-[10%] w-16 h-16 md:w-22 md:h-22 lg:w-24 lg:h-24 z-20">
           <div className="w-full h-full rounded-full bg-linear-to-b from-zinc-600 via-zinc-700 to-zinc-900 shadow-[0_10px_35px_rgba(0,0,0,0.5)] flex items-center justify-center border-2 border-zinc-500/50">
             <div className="w-[85%] h-[85%] rounded-full bg-linear-to-b from-zinc-700 to-zinc-800 flex items-center justify-center">
               <span className="text-amber-400 font-bold text-2xl md:text-3xl">◆</span>
@@ -79,7 +80,7 @@ export default function OTCDeskPage() {
         </div>
 
         {/* Gold Coin (IOTA style) - Center */}
-        <div className="absolute top-[58%] left-1/2 -translate-x-1/2 w-36 h-36 md:w-48 md:h-48 lg:w-56 lg:h-56 z-20">
+        <div className="hidden md:flex absolute top-[70%] left-1/2 -translate-x-1/2 w-36 h-36 md:w-48 md:h-48 lg:w-56 lg:h-56 z-20">
           <div className="w-full h-full rounded-full bg-linear-to-b from-amber-300 via-amber-500 to-amber-800 shadow-[0_15px_50px_rgba(0,0,0,0.6)] flex items-center justify-center transform rotate-15 border-4 border-amber-400/40">
             <div className="w-[92%] h-[92%] rounded-full bg-linear-to-br from-amber-400 via-amber-500 to-amber-700 flex items-center justify-center">
               <div className="grid grid-cols-3 gap-1.5 md:gap-2">
@@ -92,7 +93,7 @@ export default function OTCDeskPage() {
         </div>
 
         {/* Ethereum - Left */}
-        <div className="absolute top-[60%] left-[18%] w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 z-20">
+        <div className="hidden md:flex absolute top-[60%] left-[18%] w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 z-20">
           <div className="w-full h-full rounded-full bg-linear-to-b from-white via-zinc-100 to-zinc-300 shadow-[0_12px_45px_rgba(0,0,0,0.5)] flex items-center justify-center border-4 border-white/60">
             <div className="w-[90%] h-[90%] rounded-full bg-linear-to-b from-white to-zinc-200 flex items-center justify-center">
               <span className="text-zinc-600 text-5xl md:text-6xl lg:text-7xl drop-shadow-lg">◇</span>
@@ -101,7 +102,7 @@ export default function OTCDeskPage() {
         </div>
 
         {/* Ripple - Right Bottom */}
-        <div className="absolute top-[72%] right-[18%] w-28 h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 z-20">
+        <div className="hidden md:flex absolute top-[72%] right-[18%] w-28 h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 z-20">
           <div className="w-full h-full rounded-full bg-linear-to-b from-zinc-200 via-zinc-400 to-zinc-600 shadow-[0_12px_40px_rgba(0,0,0,0.5)] flex items-center justify-center transform -rotate-15 border-3 border-zinc-300/40">
             <div className="w-[90%] h-[90%] rounded-full bg-linear-to-b from-zinc-300 to-zinc-500 flex items-center justify-center">
               <div className="flex items-center gap-2">
@@ -115,17 +116,17 @@ export default function OTCDeskPage() {
       </section>
 
       {/* Features Section */}
-      <section className="bg-linear-to-b from-amber-50 via-amber-100 to-white py-24">
-        <div className="w-full max-w-400 mx-auto px-8">
-          <div className="flex flex-col lg:flex-row gap-16 items-center">
+      <section className="bg-linear-to-b from-amber-50 via-amber-100 to-white py-12 md:py-24">
+        <div className="w-full max-w-400 mx-auto px-4 md:px-8">
+          <div className="flex flex-col lg:flex-row gap-8 md:gap-16 items-center">
             {/* Left Side - Features */}
             <div className="flex-1">
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-zinc-900 mb-16 leading-tight whitespace-nowrap">
+              <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-zinc-900 mb-8 md:mb-16 leading-tight">
                 <span className="block">WE SIMPLIFY FIAT-CRYPTO</span>
                 <span className="block">OPERATIONS</span>
               </h2>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
                 {/* Feature 1 */}
                 <div>
                   <div className="w-12 h-12 bg-zinc-900 rounded-lg flex items-center justify-center mb-4">
@@ -224,18 +225,18 @@ export default function OTCDeskPage() {
       </section>
 
       {/* Process Section */}
-      <section className="bg-black py-32 rounded-t-[80px] -mt-16 relative z-10">
-        <div className="w-full max-w-400 mx-auto px-8">
+      <section className="bg-black py-16 md:py-32 rounded-t-[40px] md:rounded-t-[80px] -mt-8 md:-mt-16 relative z-10">
+        <div className="w-full max-w-400 mx-auto px-4 md:px-8">
           {/* Title */}
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-amber-100 leading-tight tracking-wide text-center mb-20">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-amber-100 leading-tight tracking-wide text-center mb-10 md:mb-20">
             <span className="block">A SIMPLE & STRAIGHTFORWARD</span>
             <span className="block">PROCESS</span>
           </h2>
 
           {/* Content */}
-          <div className="flex flex-col lg:flex-row gap-16 items-center">
-            {/* Left Side - Images */}
-            <div className="flex-1 relative min-h-112.5">
+          <div className="flex flex-col lg:flex-row gap-8 md:gap-16 items-center">
+            {/* Left Side - Images - Hidden on mobile */}
+            <div className="hidden md:block flex-1 relative min-h-80 md:min-h-112.5">
               {/* Fingerprint Card - 3D tilted */}
               <div className="absolute top-0 left-1/2 -translate-x-1/4 w-80 h-55" style={{transform: 'perspective(1000px) rotateX(10deg) rotateY(-15deg) rotateZ(5deg)'}}>
                 <div className="w-full h-full bg-linear-to-br from-zinc-700 via-zinc-800 to-zinc-900 rounded-2xl shadow-[0_25px_50px_rgba(0,0,0,0.5)] border border-zinc-600/30 flex items-center justify-center">
@@ -275,7 +276,7 @@ export default function OTCDeskPage() {
             </div>
 
             {/* Right Side - Steps */}
-            <div className="flex-1 space-y-10">
+            <div className="flex-1 space-y-6 md:space-y-10">
               {/* Step 1 */}
               <div>
                 <div className="w-12 h-12 bg-zinc-800 rounded-lg flex items-center justify-center mb-4 border border-zinc-700">
@@ -319,7 +320,7 @@ export default function OTCDeskPage() {
       </section>
 
       {/* Solutions Section */}
-      <section className="bg-black py-32 relative overflow-hidden">
+      <section className="bg-black py-16 md:py-32 relative overflow-hidden">
         {/* Light Streak Background Effect */}
         <div className="absolute inset-0">
           <div className="absolute top-1/2 left-0 right-0 h-100 -translate-y-1/2 bg-linear-to-r from-transparent via-amber-100/20 to-transparent transform -skew-y-6 blur-xl"></div>
@@ -327,9 +328,9 @@ export default function OTCDeskPage() {
           <div className="absolute top-[45%] left-[20%] right-[20%] h-25 bg-linear-to-r from-transparent via-white/20 to-transparent transform -skew-y-6 blur-sm"></div>
         </div>
 
-        <div className="w-full max-w-400 mx-auto px-8 relative z-10">
+        <div className="w-full max-w-400 mx-auto px-4 md:px-8 relative z-10">
           {/* Title */}
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-wide text-center mb-24">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-black leading-tight tracking-wide text-center mb-12 md:mb-24">
             <span className="text-white">SOLUTIONS </span>
             <span className="text-amber-200">THAT SUPPORT YOUR</span>
             <span className="block text-amber-200">BUSINESS </span>
@@ -337,7 +338,7 @@ export default function OTCDeskPage() {
           </h2>
 
           {/* Three Features */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 text-center">
             {/* REABILITY */}
             <div className="flex flex-col items-center">
               <div className="w-14 h-14 border-2 border-zinc-600 rounded-xl flex items-center justify-center mb-6">
@@ -376,7 +377,7 @@ export default function OTCDeskPage() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="bg-black py-32 relative overflow-hidden">
+      <section id="demo" className="bg-black py-16 md:py-32 relative overflow-hidden scroll-mt-20">
         {/* Particle/Glow Background Effect */}
         <div className="absolute inset-0">
           {/* Main glow */}
@@ -412,11 +413,11 @@ export default function OTCDeskPage() {
           </div>
         </div>
 
-        <div className="w-full max-w-400 mx-auto px-8 relative z-10">
-          <div className="flex flex-col lg:flex-row gap-16 items-center">
+        <div className="w-full max-w-400 mx-auto px-4 md:px-8 relative z-10">
+          <div className="flex flex-col lg:flex-row gap-8 md:gap-16 items-center">
             {/* Left Side - Title */}
             <div className="flex-1">
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-amber-100 leading-tight tracking-wide">
+              <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-amber-100 leading-tight tracking-wide">
                 <span className="block">BOOK A FREE DEMO</span>
                 <span className="block">WITH AN EXPERT</span>
               </h2>

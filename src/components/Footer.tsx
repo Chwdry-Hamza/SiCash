@@ -46,15 +46,13 @@ export default function Footer() {
         {/* Navigation Links */}
         <div className="flex flex-col items-center gap-8 mb-12">
           <Link href="/about" className="text-zinc-400 text-sm hover:text-white transition-colors">ABOUT SICASH</Link>
-          <Link href="/news" className="text-zinc-400 text-sm hover:text-white transition-colors">NEWS & MEDIA</Link>
-          <Link href="/otc-desk" className="text-zinc-400 text-sm hover:text-white transition-colors">OTC DESK</Link>
+          {/* <Link href="/otc-desk" className="text-zinc-400 text-sm hover:text-white transition-colors">OTC DESK</Link> */}
           <Link href="/privacy-policy" className="text-zinc-400 text-sm hover:text-white transition-colors">PRIVACY POLICY</Link>
           <Link href="/cookie-policy" className="text-zinc-400 text-sm hover:text-white transition-colors">COOKIE POLICY</Link>
           <Link href="/terms-conditions" className="text-zinc-400 text-sm hover:text-white transition-colors">TERMS & CONDITIONS</Link>
-          <Link href="/referral-terms" className="text-zinc-400 text-sm hover:text-white transition-colors text-center">REFERRAL PROGRAMME TERMS & CONDITIONS</Link>
           <Link href="/accepted-assets" className="text-zinc-400 text-sm hover:text-white transition-colors">ACCEPTED ASSETS</Link>
-          <Link href="/help" className="text-zinc-400 text-sm hover:text-white transition-colors">HELP CENTER</Link>
         </div>
+  
 
         {/* Divider */}
         <div className="h-px bg-zinc-800 mb-8" />
@@ -143,24 +141,15 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-        </div>
-
+        </div> 
         {/* Navigation Links */}
-        {/* <div className="flex flex-wrap justify-end gap-x-6 gap-y-2 mb-8">
+        <div className="flex flex-wrap justify-end gap-x-6 gap-y-2 mb-8">
           <Link href="/about" className="text-zinc-400 text-sm hover:text-white transition-colors">ABOUT SICASH</Link>
-          <Link href="/otc-desk" className="text-zinc-400 text-sm hover:text-white transition-colors">OTC DESK</Link>
+          {/* <Link href="/otc-desk" className="text-zinc-400 text-sm hover:text-white transition-colors">OTC DESK</Link> */}
           <Link href="/privacy-policy" className="text-zinc-400 text-sm hover:text-white transition-colors">PRIVACY POLICY</Link>
           <Link href="/cookie-policy" className="text-zinc-400 text-sm hover:text-white transition-colors">COOKIE POLICY</Link>
           <Link href="/terms-conditions" className="text-zinc-400 text-sm hover:text-white transition-colors">TERMS & CONDITIONS</Link>
           <Link href="/accepted-assets" className="text-zinc-400 text-sm hover:text-white transition-colors">ACCEPTED ASSETS</Link>
-        </div> */}
- <div className="flex flex-wrap justify-end gap-x-6 gap-y-2 mb-8">
-          <Link href="/about" className="text-zinc-400 text-sm hover:text-white transition-colors">ABOUT SICASH</Link>
-          <Link href="/#" className="text-zinc-400 text-sm hover:text-white transition-colors">OTC DESK</Link>
-          <Link href="/privacy-policy" className="text-zinc-400 text-sm hover:text-white transition-colors">PRIVACY POLICY</Link>
-          <Link href="/cookie-policy" className="text-zinc-400 text-sm hover:text-white transition-colors">COOKIE POLICY</Link>
-          <Link href="/terms-conditions" className="text-zinc-400 text-sm hover:text-white transition-colors">TERMS & CONDITIONS</Link>
-          {/* <Link href="/#" className="text-zinc-400 text-sm hover:text-white transition-colors">ACCEPTED ASSETS</Link> */}
         </div>
 
         {/* Divider */}

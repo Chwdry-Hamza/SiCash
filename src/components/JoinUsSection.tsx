@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function JoinUsSection() {
   return (
-    <section className="relative bg-black pt-32 pb-48 overflow-hidden">
+    <section className="relative bg-black pt-16 md:pt-32 pb-24 md:pb-48 overflow-hidden">
       {/* Photo Grid Background */}
       <div className="absolute inset-0 grid grid-cols-4 gap-1 opacity-40">
         {/* Row 1 */}

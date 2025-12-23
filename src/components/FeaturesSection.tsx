@@ -2,7 +2,7 @@
 
 export default function FeaturesSection() {
   return (
-    <section className="relative bg-black py-36 overflow-hidden">
+    <section className="relative bg-black py-16 md:py-36 overflow-hidden">
       {/* Background gradient effects */}
       <div className="absolute inset-0 bg-black" />
       <div className="absolute top-1/2 left-0 w-200 h-200 bg-amber-100/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />

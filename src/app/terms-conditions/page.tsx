@@ -5,15 +5,15 @@ export default function TermsConditionsPage() {
   return (
     <main className="bg-white min-h-screen overflow-y-auto policy-scroll">
       {/* Header */}
-      <header className="w-full max-w-410 mx-auto px-8 py-8">
-        <Link href="/" className="text-zinc-900 font-black text-2xl tracking-tight hover:text-zinc-600 transition-colors">
+      <header className="w-full max-w-410 mx-auto px-4 md:px-8 py-4 md:py-8">
+        <Link href="/" className="text-zinc-900 font-black text-xl md:text-2xl tracking-tight hover:text-zinc-600 transition-colors">
           SICASH
         </Link>
       </header>
 
       {/* Title Section */}
-      <section className="w-full max-w-410 mx-auto px-8 pt-24 pb-16">
-        <h1 className="text-5xl md:text-6xl font-black text-zinc-900 mb-16">
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pt-12 md:pt-24 pb-8 md:pb-16">
+        <h1 className="text-4xl md:text-6xl font-black text-zinc-900 mb-10 md:mb-16">
           TERMS & CONDITIONS
         </h1>
 
@@ -45,8 +45,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* Important Information on Key Risks */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h2 className="text-3xl font-black text-zinc-900 mb-8">IMPORTANT INFORMATION ON KEY RISKS</h2>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h2 className="text-2xl md:text-3xl font-black text-zinc-900 mb-6 md:mb-8">IMPORTANT INFORMATION ON KEY RISKS</h2>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>
@@ -110,10 +110,10 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* You and SICASH Hereby Agree */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h2 className="text-3xl font-black text-zinc-900 mb-8">YOU AND SICASH HEREBY AGREE AS FOLLOWS:</h2>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h2 className="text-2xl md:text-3xl font-black text-zinc-900 mb-6 md:mb-8">YOU AND SICASH HEREBY AGREE AS FOLLOWS:</h2>
 
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">1. DEFINITIONS AND INTERPRETATION</h3>
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">1. DEFINITIONS AND INTERPRETATION</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>1.1. In these Terms, the following words and expressions have the following meanings:</p>
@@ -195,8 +195,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 2. Feedback and Determinations */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">2. FEEDBACK AND DETERMINATIONS</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">2. FEEDBACK AND DETERMINATIONS</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>2.1. To contact SICASH in connection with SICASH Services, or to submit questions, comments, suggestions, ideas, original or creative materials or other information (collectively, the &quot;Feedback&quot;), you may write to SICASH in English in accordance with these Terms.</p>
@@ -212,8 +212,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 3. Application for SICASH Services */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">3. APPLICATION FOR SICASH SERVICES, REGISTRATION FOR SICASH ACCOUNT AND ELIGIBILITY</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">3. APPLICATION FOR SICASH SERVICES, REGISTRATION FOR SICASH ACCOUNT AND ELIGIBILITY</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>3.1. In order to be eligible to apply for and use our Services, you must be a resident (or your entity must be established) in an Eligible Country. To be eligible to use our services, you must be at least eighteen (18) years of age, and have full power and capacity to accept these Terms.</p>
@@ -285,8 +285,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 4. Rights to Feedback and User Content */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">4. RIGHTS TO FEEDBACK AND USER CONTENT</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">4. RIGHTS TO FEEDBACK AND USER CONTENT</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>4.1. To the maximum extent permitted by the applicable laws, regulations, rules, directions, orders and requirements, SICASH is entitled to retrieve and collect, and you hereby affirmatively agree, consent to and authorize the collection, use and disclosure by and on behalf of SICASH, any feedback provided by you to SICASH or User Content created, posted, uploaded, shared or stored by you in connection with any part of the SICASH Services. SICASH is entitled to collect, use or disclose any Feedback provided by you to SICASH and any User Content created, posted, uploaded, shared or stored by you in connection with any part of the SICASH Services for any purpose, commercial or otherwise, without acknowledgment or compensation to you.</p>
@@ -298,8 +298,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 5. Your Account Security and Responsibility for Unauthorized Transactions */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">5. YOUR ACCOUNT SECURITY AND RESPONSIBILITY FOR UNAUTHORIZED TRANSACTIONS</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">5. YOUR ACCOUNT SECURITY AND RESPONSIBILITY FOR UNAUTHORIZED TRANSACTIONS</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>5.1. SICASH is committed to handling all Customer Information provided by you to SICASH with high standards of information security.</p>
@@ -351,8 +351,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 6. Money or Funds Paid into Your Account by Accident */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">6. MONEY OR FUNDS PAID INTO YOUR ACCOUNT BY ACCIDENT</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">6. MONEY OR FUNDS PAID INTO YOUR ACCOUNT BY ACCIDENT</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>6.1. Subject to the applicable laws, regulations, rules, directions, orders and requirements and the Policies (including the Privacy Policy), SICASH may choose to return money paid to your account by mistake.</p>
@@ -362,8 +362,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 6A. Disputed Card Transactions */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">6A. DISPUTED CARD TRANSACTIONS</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">6A. DISPUTED CARD TRANSACTIONS</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>Subject to the Card Issuer Terms, in the event that SICASH is notified by you of any Card Transaction which you discover, suspect or have reason to believe to be arising from or in connection with any loss, theft, or inappropriate or unauthorized disclosure of and/or use of your Card and/or your Credentials in relation to your Card, or any manifest or obvious technical error at any stage of a Card Transaction:</p>
@@ -381,8 +381,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 7. Account Irregularities */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">7. ACCOUNT IRREGULARITIES</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">7. ACCOUNT IRREGULARITIES</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>7.1. If you give SICASH the wrong details for a payment or you tell SICASH about an incorrect payment more than thirteen (13) months after it was made, SICASH won&apos;t give you a refund but will try and trace it for you. SICASH may charge you a reasonable fee to cover for the costs of doing so.</p>
@@ -392,8 +392,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 8. Late Execution of Payment Transactions */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">8. LATE EXECUTION OF PAYMENT TRANSACTIONS</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">8. LATE EXECUTION OF PAYMENT TRANSACTIONS</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>8.1. If you are able to make payments directly from your account to another person and if a payment you asked SICASH to make within the EEA arrives later than it should have, you can ask SICASH to contact the receiving bank and ask them to treat it as if it was made on time.</p>
@@ -401,8 +401,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 9. Third-Party Providers */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">9. THIRD-PARTY PROVIDERS</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">9. THIRD-PARTY PROVIDERS</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>9.1. You can choose to allow a Third-Party Provider (&quot;TPP&quot;) to access information on your account, to combine and display information about your account with information from accounts you have with other payment service providers, and, if applicable to your payment instrument, to make payments for you from your account, provided the TPP is authorized by the relevant European regulator, and you have given your explicit consent.</p>
@@ -418,8 +418,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 10. Use by SICASH of Customer Information */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">10. USE BY SICASH OF CUSTOMER INFORMATION</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">10. USE BY SICASH OF CUSTOMER INFORMATION</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>10.1. Subject to the applicable laws, regulations, rules, directions, orders and requirements and the Policies (including the Privacy Policy), SICASH is entitled to request, retrieve and collect, and you hereby affirmatively agree, consent to and authorize the collection, retrieval, use and disclosure by and on behalf of SICASH of any and all Customer Information, in the manner and for the purposes set out in the Policies and the following purposes:</p>
@@ -437,8 +437,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 11. Use of SICASH Services and Transaction Execution */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">11. USE OF SICASH SERVICES AND TRANSACTION EXECUTION</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">11. USE OF SICASH SERVICES AND TRANSACTION EXECUTION</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>11.1. When you instruct SICASH to process and complete a transaction, you agree and accept that you authorize SICASH to execute such transaction immediately (unless otherwise stated) in accordance with your instructions and charge you any applicable fees associated therewith. You represent and warrant that any Customer Information you provide to SICASH in connection with each transaction, is accurate and complete.</p>
@@ -500,8 +500,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 12. Statements */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">12. STATEMENTS</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">12. STATEMENTS</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>12.1. Information about your payment instrument and transactional history will be made available to you at all times via your online account without and in some cases also by accompanying email notifications.</p>
@@ -509,8 +509,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 13. Prolonged Inactivity */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">13. PROLONGED INACTIVITY</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">13. PROLONGED INACTIVITY</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>13.1. If there is a prolonged period of inactivity in respect of your SICASH Account and where the Available Balance of your SICASH Account is positive, SICASH will attempt to contact you with such contact details based on the Customer Information provided by you to SICASH. However, if SICASH is unable to contact you, the applicable laws, rules, regulations, directions, orders or requirements may require SICASH to report such Available Balance as unclaimed property to the applicable regulatory authority or law enforcement body and deliver the Accepted Assets comprising such Available Balance to the applicable jurisdiction as unclaimed property. To the maximum extent permitted by all applicable laws, regulations, rules, directions, orders and requirements, SICASH reserves the right to deduct administrative fees from such Available Balance in connection with such prolonged periods of inactivity, such attempts to contact you and/or such reports.</p>
@@ -518,8 +518,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 14. Responsibility for Use of External Wallets and External Accounts */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">14. RESPONSIBILITY FOR USE OF EXTERNAL WALLETS AND EXTERNAL ACCOUNTS</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">14. RESPONSIBILITY FOR USE OF EXTERNAL WALLETS AND EXTERNAL ACCOUNTS</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>14.1. You are solely responsible for your use of any External Wallet or External Account and your compliance with any and all terms and conditions which are prescribed by the provider of the services of such External Wallet or Account as being applicable to your use of such services. SICASH is not responsible for any access to or use of any External Wallet or Account. You agree and accept that if the security of your External Wallet or External Account is compromised in any manner, you will not be entitled to receive any compensation from SICASH, and SICASH will not be obliged to provide, any refunds in respect of any loss, theft, or inappropriate or unauthorized disclosure of and/or use of such External Wallet or Account or their respective credentials.</p>
@@ -531,8 +531,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 15. Prohibited Uses of SICASH Services */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">15. PROHIBITED USES OF SICASH SERVICES</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">15. PROHIBITED USES OF SICASH SERVICES</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>15.1. You hereby agree that you will not use any part of the SICASH Services to conduct, pay for or facilitate activities that:</p>
@@ -601,8 +601,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 16. Interest */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">16. INTEREST</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">16. INTEREST</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>16.1. SICASH will not pay any interest on your account. SICASH Account is not a bank account. You will not earn any interest on any funds stored with SICASH.</p>
@@ -610,8 +610,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 17. Use of SICASH Card, Card Limits and Card Authorization Details */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">17. USE OF SICASH CARD, CARD LIMITS AND CARD AUTHORIZATION DETAILS</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">17. USE OF SICASH CARD, CARD LIMITS AND CARD AUTHORIZATION DETAILS</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>17.1. Subject to the applicable laws, regulations, rules, directions, orders and requirements, SICASH and/or the Card Issuer may at its/their sole and absolute discretion set certain Card Limit(s) as being applicable to your use of the Card and may vary the Card Limit(s) for different types of Card Transactions.</p>
@@ -653,8 +653,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 18. Payable Fees */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">18. PAYABLE FEES</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">18. PAYABLE FEES</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>18.1. SICASH is authorized to deduct the amount(s) of all transactions and any fees as notified by SICASH to you in advance (in writing, by displaying within the SICASH Account or any other form or manner) as being payable by and chargeable to you under these Terms from the Available Balance of your SICASH Account. The detailed Fees Schedule is set on SICASH Website. Please note that some of these fees are charged by SICASH, while certain other fees are collected by SICASH on behalf of our payments and financial partners.</p>
@@ -692,8 +692,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 19. Account Closure by SICASH */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">19. ACCOUNT CLOSURE BY SICASH</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">19. ACCOUNT CLOSURE BY SICASH</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>19.1. If SICASH determines that you are incurring an excessive number of chargebacks, disputes, complaints or other irregularities, SICASH may establish controls or conditions governing your use of your SICASH Account, including by:</p>
@@ -747,8 +747,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 20. Account Closure by You */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">20. ACCOUNT CLOSURE BY YOU</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">20. ACCOUNT CLOSURE BY YOU</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>20.1. You are entitled to close your SICASH Account at any time by notifying SICASH of your intention of such closure or termination in accordance with clause 31.</p>
@@ -760,8 +760,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 21. Surviving Terms for Account Closure and Compliance */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">21. SURVIVING TERMS FOR ACCOUNT CLOSURE AND COMPLIANCE</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">21. SURVIVING TERMS FOR ACCOUNT CLOSURE AND COMPLIANCE</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>21.1. These Terms survive termination to the extent necessary for the closure of your SICASH Account by you or SICASH and for compliance by SICASH with applicable laws, rules, regulations, directions, orders and requirements.</p>
@@ -769,8 +769,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 22. Complaints */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">22. COMPLAINTS</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">22. COMPLAINTS</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>22.1. If you would like to make a complaint, please send email to complaints@sicash.com or contact us via in-app support chat.</p>
@@ -784,8 +784,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 23. Contacting in Case of an Emergency */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">23. CONTACTING IN CASE OF AN EMERGENCY</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">23. CONTACTING IN CASE OF AN EMERGENCY</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>23.1. SICASH may need to contact you urgently if SICASH suspects or finds fraudulent activity has occurred on your account (provided SICASH is not prohibited from doing so by law) or if SICASH suffers a security threat. To do so, SICASH may (for example) send you a text message instead of calling or emailing you, if SICASH thinks this is the quickest way to contact you. When SICASH contacts you, SICASH will also give you information on how you can minimize any risk to your payment instrument depending on the nature of the security threat. SICASH will use the same contact details which you have already provided us with when contacting you. You must inform us immediately if your personal details or contact information change.</p>
@@ -793,8 +793,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 24. General Rights of SICASH */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">24. GENERAL RIGHTS OF SICASH</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">24. GENERAL RIGHTS OF SICASH</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>24.1. You hereby agree and accept that SICASH records all transactions, Customer Information and any other matter in relation to these Terms or your use of SICASH Services (including any communications transmitted electronically or telecommunications between SICASH and you) are final and conclusive and binding for all purposes, in the absence of a manifested error.</p>
@@ -806,8 +806,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 25. Disclaimers, Indemnity and Liability */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">25. DISCLAIMERS, INDEMNITY AND LIABILITY</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">25. DISCLAIMERS, INDEMNITY AND LIABILITY</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>25.1. Subject to the applicable laws, regulations, rules, directions, orders and requirements and the Policies, SICASH is not in any event be liable in any way to you or any person for any loss, liability, damages or expense, howsoever arising from or in connection with:</p>
@@ -845,8 +845,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 26. Force Majeure */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">26. FORCE MAJEURE</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">26. FORCE MAJEURE</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>26.1. SICASH is not liable to you or be deemed to be in breach of any provision of these Terms by reason of any delay in performing, or any failure to perform, any of its obligations if the delay or failure was due to any Force Majeure Event.</p>
@@ -854,8 +854,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 27. Amendment, Modification or Variation of Terms */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">27. AMENDMENT, MODIFICATION OR VARIATION OF TERMS</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">27. AMENDMENT, MODIFICATION OR VARIATION OF TERMS</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>27.1. SICASH has the right in its sole and absolute discretion to amend, modify or vary these Terms (and such part of the Policies to the extent that it is entitled to make such amendments, modification or variation) by giving notice of such amendment, modification or variation (&quot;Changes&quot;) no later than two (2) months before the proposed date of entry into force of the Changes to these Terms via e-mail and on the SICASH Website, or additionally through your SICASH Account notification or in any other form or manner deemed appropriate by SICASH (which will constitute good and sufficient notice thereof to you by SICASH and will be deemed to have been received by you on the date of such posting or e-mail notice. SICASH is not required to provide such notice period of two (2) months where a Change is required by the applicable laws, rules, regulations, directions, orders or requirements or relates to the addition of a new service, extra functionality to the existing SICASH Services or any other change which neither reduces your rights nor increases your responsibilities. In such instances, the Change will be made without prior notice to you and will be effective immediately.</p>
@@ -867,8 +867,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 28. Inconsistency with Any Applicable Law, Regulations or Rules */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">28. INCONSISTENCY WITH ANY APPLICABLE LAW, REGULATIONS OR RULES</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">28. INCONSISTENCY WITH ANY APPLICABLE LAW, REGULATIONS OR RULES</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>28.1. If any provision in these Terms results in any direct or indirect non-compliance by SICASH with any provision in any applicable law, regulation, rule, direction, order and requirement in any jurisdiction, you acknowledge and agree that:</p>
@@ -880,8 +880,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 29. No Waiver */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">29. NO WAIVER</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">29. NO WAIVER</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>29.1. No failure to exercise or enforce, and no delay on the part of SICASH in exercising or enforcing its rights under these Terms will operate as a waiver thereof nor will such failure or delay in any way prejudice or affect the rights of SICASH at any time.</p>
@@ -889,8 +889,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 30. Assignment */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">30. ASSIGNMENT</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">30. ASSIGNMENT</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>30.1. The SICASH Account is non-transferable and all rights, interests and obligations under these Terms are non-assignable upon the establishment of the SICASH Account without the prior written consent of SICASH. The SICASH Account must be used strictly by you only.</p>
@@ -906,8 +906,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 31. Notices and Correspondence */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">31. NOTICES AND CORRESPONDENCE</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">31. NOTICES AND CORRESPONDENCE</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>31.1. All notices and communications by SICASH to you will be in writing in the English language, unless specifically allowed by SICASH otherwise. You agree that SICASH may provide notice or other information to you by posting it on the SICASH Website or through your SICASH Account (including the posting of information which is only accessible by you by logging into your SICASH Account), emailing it to the email address provided by you as Customer Information in connection with your SICASH Account, mailing it to the registered address provided by you as Customer Information in connection with your SICASH Account, calling you by telephone, or sending you an text message. You must have internet access and an email account to receive communications and information relating to the SICASH Services. With the exception of amendments to these Terms, such notice will be considered to be received by you within twenty-four (24) hours of the time it is posted on the SICASH Website or through your SICASH Account or emailed to you. If a notice is sent by mail, such notice will be deemed to have been received by you three (3) days after it is posted. You may request a copy of any legally required disclosures (including these Terms) from SICASH. SICASH will provide this to you in a form which allows you to store and reproduce the information in these Terms (for example, by email) and you may terminate your consent to receive required disclosures through electronic communications by contacting SICASH at support@sicash.com. SICASH may charge you a fee to provide such legally required disclosures. SICASH reserves the right to close, restrict, suspend or terminate your access to the SICASH Account if you withdraw your consent to receive electronic communications from SICASH.</p>
@@ -917,8 +917,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 32. Intellectual Property Rights */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">32. INTELLECTUAL PROPERTY RIGHTS</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">32. INTELLECTUAL PROPERTY RIGHTS</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>32.1. These Terms will not entitle you to any intellectual property rights, including the rights in relation to the use, for any purpose, of any information, image, user interface, logos, trademarks, trade names, Internet domain names or copyright in connection with any part of these Terms, the Policies, or the SICASH Website.</p>
@@ -944,8 +944,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 33. Severability */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">33. SEVERABILITY</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">33. SEVERABILITY</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>33.1. If any of these Terms is rendered void, illegal or unenforceable by any legislation to which it is subject, it will be rendered void, illegal or unenforceable to that extent and no further and, for the avoidance of doubt, the rest of these Terms will continue to be valid and in full force and effect.</p>
@@ -955,8 +955,8 @@ export default function TermsConditionsPage() {
       </section>
 
       {/* 34. Applicable Law and Jurisdiction */}
-      <section className="w-full max-w-410 mx-auto px-8 pb-16">
-        <h3 className="text-xl font-bold text-zinc-900 mb-6">34. APPLICABLE LAW AND JURISDICTION</h3>
+      <section className="w-full max-w-410 mx-auto px-4 md:px-8 pb-10 md:pb-16">
+        <h3 className="text-lg md:text-xl font-bold text-zinc-900 mb-4 md:mb-6">34. APPLICABLE LAW AND JURISDICTION</h3>
 
         <div className="space-y-6 text-zinc-700 leading-relaxed">
           <p>34.1. These Terms will be subject to and construed in accordance with the laws of Poland and you hereby submit to the non-exclusive jurisdiction of the courts of Poland.</p>

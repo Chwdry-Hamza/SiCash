@@ -5,21 +5,21 @@ export default function AboutPage() {
   return (
     <main className="bg-black">
       {/* First Section - About with Background */}
-      <section className="min-h-screen relative overflow-hidden">
+      <section className="min-h-fit md:min-h-screen relative overflow-hidden">
         {/* Background */}
         <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
           {/* Large SICASH text in background */}
-          <div className="text-zinc-700/30 text-[40vw] font-bold leading-none select-none tracking-tighter whitespace-nowrap scale-x-75">
+          <div className="text-zinc-700/30 text-[50vw] md:text-[40vw] font-bold leading-none select-none tracking-tighter whitespace-nowrap scale-x-75">
             SICASH
           </div>
         </div>
 
         {/* Header */}
-        <header className="relative z-10 w-full max-w-380 mx-auto px-8 py-8 flex items-center justify-between">
-          <Link href="/" className="text-amber-100 font-bold text-2xl tracking-tight hover:text-white transition-colors">
+        <header className="relative z-10 w-full max-w-380 mx-auto px-4 md:px-8 py-4 md:py-8 flex items-center justify-between">
+          <Link href="/" className="text-amber-100 font-bold text-xl md:text-2xl tracking-tight hover:text-white transition-colors">
             SICASH
           </Link>
-          <button className="flex items-center gap-2 text-zinc-300 hover:text-white transition-colors">
+          <button className="flex items-center gap-2 text-zinc-300 hover:text-white transition-colors text-sm md:text-base">
             English
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -28,14 +28,14 @@ export default function AboutPage() {
         </header>
 
         {/* Content */}
-        <div className="relative z-10 w-full max-w-380 mx-auto px-8 pt-48 pb-4">
-          <h1 className="text-5xl md:text-6xl font-bold mb-10">
+        <div className="relative z-10 w-full max-w-380 mx-auto px-4 md:px-8 pt-8 md:pt-48 pb-4">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 md:mb-10">
             <span className="text-amber-100">ABOUT</span>{" "}
             <span className="text-white">SICASH</span>
           </h1>
 
           <div className="max-w-2xl">
-            <p className="text-zinc-400 text-xl leading-relaxed">
+            <p className="text-zinc-400 text-base md:text-xl leading-relaxed">
               SICASH is a global innovative platform for unified financial management of fiat and
               cryptocurrencies. Using cutting-edge technologies it seamlessly integrates with other
               financial service providers allowing users to easily manage all their cards and accounts in
@@ -48,13 +48,13 @@ export default function AboutPage() {
       </section>
 
       {/* Mission & Vision Section */}
-      <section className="relative bg-black pb-32">
-        <div className="w-full max-w-380 mx-auto px-8">
-          <div className="grid grid-cols-2 gap-24">
+      <section className="relative bg-black pb-8 md:pb-32">
+        <div className="w-full max-w-380 mx-auto px-4 md:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-24">
             {/* Mission */}
             <div>
-              <h2 className="text-5xl font-bold text-amber-100 mb-8">MISSION</h2>
-              <p className="text-zinc-400 text-lg leading-relaxed">
+              <h2 className="text-3xl md:text-5xl font-bold text-amber-100 mb-4 md:mb-8">MISSION</h2>
+              <p className="text-zinc-400 text-base md:text-lg leading-relaxed">
                 Our mission is to simplify financial management and bridge the gap between fiat
                 and crypto. By saving our users&apos; time and money and empowering them with
                 financial growth opportunities, we strive to be their trusted partner in achieving
@@ -64,8 +64,8 @@ export default function AboutPage() {
 
             {/* Vision */}
             <div>
-              <h2 className="text-5xl font-bold text-amber-100 mb-8">VISION</h2>
-              <p className="text-zinc-400 text-lg leading-relaxed">
+              <h2 className="text-3xl md:text-5xl font-bold text-amber-100 mb-4 md:mb-8">VISION</h2>
+              <p className="text-zinc-400 text-base md:text-lg leading-relaxed">
                 Our vision is to lead the digital finance revolution through continuous innovation.
                 We aim to create a future where financial freedom, inclusivity, and transparency
                 are the norms and everyone can seamlessly navigate and thrive in the evolving
@@ -77,7 +77,7 @@ export default function AboutPage() {
       </section>
 
       {/* Executive Team Section */}
-      <section className="relative pt-48 pb-32 overflow-hidden" style={{ background: 'linear-gradient(to bottom, #000000 0%, #1a1a1a 5%, #3d3a32 15%, #c4b89a 40%, #ffffff 100%)' }}>
+      <section className="relative pt-8 md:pt-48 pb-8 md:pb-32 overflow-hidden" style={{ background: 'linear-gradient(to bottom, #000000 0%, #1a1a1a 5%, #3d3a32 15%, #c4b89a 40%, #ffffff 100%)' }}>
 
         {/* Light rays effect */}
         <div className="absolute inset-0 opacity-20">
@@ -88,111 +88,111 @@ export default function AboutPage() {
           <div className="absolute top-1/2 right-1/4 w-1 h-[200%] bg-white/10 rotate-6 blur-sm" />
         </div>
 
-        <div className="relative z-10 w-full max-w-380 mx-auto px-8">
-          <h2 className="text-5xl md:text-6xl font-bold text-white mb-20">EXECUTIVE TEAM</h2>
+        <div className="relative z-10 w-full max-w-380 mx-auto px-4 md:px-8">
+          <h2 className="text-3xl md:text-6xl font-bold text-white mb-6 md:mb-20">EXECUTIVE TEAM</h2>
 
           {/* Team Grid */}
-          <div className="grid grid-cols-2 gap-x-48 gap-y-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-x-48 md:gap-y-20">
             {/* Svitlana Monastyrska */}
             <div>
-              <div className="w-40 h-40 bg-zinc-300 rounded-lg mb-6 overflow-hidden">
+              <div className="w-28 h-28 md:w-40 md:h-40 bg-zinc-300 rounded-lg mb-4 md:mb-6 overflow-hidden">
                 <div className="w-full h-full bg-linear-to-br from-zinc-200 to-zinc-400" />
               </div>
-              <h3 className="text-4xl font-bold text-zinc-800 leading-tight mb-3">
+              <h3 className="text-2xl md:text-4xl font-bold text-zinc-800 leading-tight mb-2 md:mb-3">
                 SVITLANA<br />MONASTYRSKA
               </h3>
-              <p className="text-zinc-700 text-lg italic mb-4">
+              <p className="text-zinc-700 text-sm md:text-lg italic mb-3 md:mb-4">
                 CHIEF EXECUTIVE OFFICER<br />& <span className="font-bold not-italic">FOUNDER</span>
               </p>
-              <p className="text-zinc-600 text-base leading-relaxed mb-4 max-w-sm">
+              <p className="text-zinc-600 text-sm md:text-base leading-relaxed mb-3 md:mb-4 max-w-sm">
                 Over 20 years of experience and leadership in Ukraine&apos;s banking sector, including roles at Pravex Bank, UkrsotsBank, Alfa-Bank, and UkrEximBank. Holds a PhD in Public Administration and has two higher education degrees in Banking.
               </p>
-              <a href="#" className="text-zinc-600 text-base hover:text-zinc-900 transition-colors">LinkedIn</a>
+              <a href="#" className="text-zinc-600 text-sm md:text-base hover:text-zinc-900 transition-colors">LinkedIn</a>
             </div>
 
             {/* Michael Gorishnyi */}
             <div>
-              <div className="w-40 h-40 bg-zinc-300 rounded-lg mb-6 overflow-hidden">
+              <div className="w-28 h-28 md:w-40 md:h-40 bg-zinc-300 rounded-lg mb-4 md:mb-6 overflow-hidden">
                 <div className="w-full h-full bg-linear-to-br from-zinc-200 to-zinc-400" />
               </div>
-              <h3 className="text-4xl font-bold text-zinc-800 leading-tight mb-3">
+              <h3 className="text-2xl md:text-4xl font-bold text-zinc-800 leading-tight mb-2 md:mb-3">
                 MICHAEL<br />GORISHNYI
               </h3>
-              <p className="text-zinc-700 text-lg italic mb-4">
+              <p className="text-zinc-700 text-sm md:text-lg italic mb-3 md:mb-4">
                 CHIEF TECHNOLOGY OFFICER
               </p>
-              <p className="text-zinc-600 text-base leading-relaxed mb-4 max-w-sm">
+              <p className="text-zinc-600 text-sm md:text-base leading-relaxed mb-3 md:mb-4 max-w-sm">
                 Over 15 years of experience in building high-load tech platforms and scalable architecture. Expert in creating autonomous engineering teams, process standardization, and scaling product development with clarity and speed. Certified SAFe&reg; 6 Agilist with a focus on agile delivery and engineering excellence.
               </p>
-              <a href="#" className="text-zinc-600 text-base hover:text-zinc-900 transition-colors">LinkedIn</a>
+              <a href="#" className="text-zinc-600 text-sm md:text-base hover:text-zinc-900 transition-colors">LinkedIn</a>
             </div>
 
             {/* Mykhail Stryzhko */}
             <div>
-              <div className="w-40 h-40 bg-zinc-300 rounded-lg mb-6 overflow-hidden">
+              <div className="w-28 h-28 md:w-40 md:h-40 bg-zinc-300 rounded-lg mb-4 md:mb-6 overflow-hidden">
                 <div className="w-full h-full bg-linear-to-br from-zinc-200 to-zinc-400" />
               </div>
-              <h3 className="text-4xl font-bold text-zinc-800 leading-tight mb-3">
+              <h3 className="text-2xl md:text-4xl font-bold text-zinc-800 leading-tight mb-2 md:mb-3">
                 MYKHAIL<br />STRYZHKO
               </h3>
-              <p className="text-zinc-700 text-lg italic mb-4">
+              <p className="text-zinc-700 text-sm md:text-lg italic mb-3 md:mb-4">
                 CHIEF OPERATING OFFICER
               </p>
-              <p className="text-zinc-600 text-base leading-relaxed mb-4 max-w-sm">
+              <p className="text-zinc-600 text-sm md:text-base leading-relaxed mb-3 md:mb-4 max-w-sm">
                 Over 20 years of experience in banks, fintech, audit & consulting, including roles at PricewaterhouseCoopers, Piraeus Bank, VTB Bank, Sportbank, and own fintech companies. Holds an Executive MBA, is ACMA/CGMA and ACCA qualified, with two Master&apos;s degrees in Banking and Business Administration.
               </p>
-              <a href="#" className="text-zinc-600 text-base hover:text-zinc-900 transition-colors">LinkedIn</a>
+              <a href="#" className="text-zinc-600 text-sm md:text-base hover:text-zinc-900 transition-colors">LinkedIn</a>
             </div>
 
             {/* Marta Michalewska */}
             <div>
-              <div className="w-40 h-40 bg-zinc-300 rounded-lg mb-6 overflow-hidden">
+              <div className="w-28 h-28 md:w-40 md:h-40 bg-zinc-300 rounded-lg mb-4 md:mb-6 overflow-hidden">
                 <div className="w-full h-full bg-linear-to-br from-zinc-200 to-zinc-400" />
               </div>
-              <h3 className="text-4xl font-bold text-zinc-800 leading-tight mb-3">
+              <h3 className="text-2xl md:text-4xl font-bold text-zinc-800 leading-tight mb-2 md:mb-3">
                 MARTA<br />MICHALEWSKA
               </h3>
-              <p className="text-zinc-700 text-lg italic mb-4">
+              <p className="text-zinc-700 text-sm md:text-lg italic mb-3 md:mb-4">
                 MONEY LAUNDERING REPORTING OFFICER
               </p>
-              <p className="text-zinc-600 text-base leading-relaxed mb-4 max-w-sm">
+              <p className="text-zinc-600 text-sm md:text-base leading-relaxed mb-3 md:mb-4 max-w-sm">
                 Over 10 years of experience in AML and anti-fraud, including senior positions in fintech and tech companies. Expert in building and managing compliance frameworks and regulatory processes. Serves as a Money Laundering Reporting Officer (MLRO) in international environments.
               </p>
-              <a href="#" className="text-zinc-600 text-base hover:text-zinc-900 transition-colors">LinkedIn</a>
+              <a href="#" className="text-zinc-600 text-sm md:text-base hover:text-zinc-900 transition-colors">LinkedIn</a>
             </div>
 
             {/* Inna Grynova */}
             <div>
-              <div className="w-40 h-40 bg-zinc-300 rounded-lg mb-6 overflow-hidden">
+              <div className="w-28 h-28 md:w-40 md:h-40 bg-zinc-300 rounded-lg mb-4 md:mb-6 overflow-hidden">
                 <div className="w-full h-full bg-linear-to-br from-zinc-200 to-zinc-400" />
               </div>
-              <h3 className="text-4xl font-bold text-zinc-800 leading-tight mb-3">
+              <h3 className="text-2xl md:text-4xl font-bold text-zinc-800 leading-tight mb-2 md:mb-3">
                 INNA<br />GRYNOVA
               </h3>
-              <p className="text-zinc-700 text-lg italic mb-4">
+              <p className="text-zinc-700 text-sm md:text-lg italic mb-3 md:mb-4">
                 CHIEF OF CUSTOMER SUPPORT<br />AND FINANCIAL CRIME OPERATIONS
               </p>
-              <p className="text-zinc-600 text-base leading-relaxed mb-4 max-w-sm">
+              <p className="text-zinc-600 text-sm md:text-base leading-relaxed mb-3 md:mb-4 max-w-sm">
                 Over 20 years of experience in customer service, financial crime prevention, fintech, including leading roles at Revolut and Shares.io, ex-program manager at Google. An expert in building scalable organizations, process optimization, and customer experience enhancement.
               </p>
-              <a href="#" className="text-zinc-600 text-base hover:text-zinc-900 transition-colors">LinkedIn</a>
+              <a href="#" className="text-zinc-600 text-sm md:text-base hover:text-zinc-900 transition-colors">LinkedIn</a>
             </div>
 
             {/* Vladyslav Permohorov */}
             <div>
-              <div className="w-40 h-40 bg-zinc-300 rounded-lg mb-6 overflow-hidden">
+              <div className="w-28 h-28 md:w-40 md:h-40 bg-zinc-300 rounded-lg mb-4 md:mb-6 overflow-hidden">
                 <div className="w-full h-full bg-linear-to-br from-zinc-200 to-zinc-400" />
               </div>
-              <h3 className="text-4xl font-bold text-zinc-800 leading-tight mb-3">
+              <h3 className="text-2xl md:text-4xl font-bold text-zinc-800 leading-tight mb-2 md:mb-3">
                 VLADYSLAV<br />PERMOHOROV
               </h3>
-              <p className="text-zinc-700 text-lg italic mb-4">
+              <p className="text-zinc-700 text-sm md:text-lg italic mb-3 md:mb-4">
                 CHIEF MARKETING OFFICER
               </p>
-              <p className="text-zinc-600 text-base leading-relaxed mb-4 max-w-sm">
+              <p className="text-zinc-600 text-sm md:text-base leading-relaxed mb-3 md:mb-4 max-w-sm">
                 Over 10 years in marketing with expertise in crypto, fintech, edutech, and e-commerce. Built marketing departments from scratch, developed go-to-market strategies, and led large cross-functional teams across EU, UK, Eastern Europe, and US markets.
               </p>
-              <a href="#" className="text-zinc-600 text-base hover:text-zinc-900 transition-colors">LinkedIn</a>
+              <a href="#" className="text-zinc-600 text-sm md:text-base hover:text-zinc-900 transition-colors">LinkedIn</a>
             </div>
           </div>
         </div>
@@ -200,7 +200,7 @@ export default function AboutPage() {
 
       {/* Our Collaborations Section */}
       <div className="bg-white">
-        <section className="relative bg-black py-24 overflow-hidden rounded-t-[3rem]">
+        <section className="relative bg-black py-8 md:py-24 overflow-hidden rounded-t-4xl md:rounded-t-[3rem]">
         {/* Diagonal light rays effect */}
         <div className="absolute inset-0">
           <div className="absolute top-0 left-0 w-full h-full bg-linear-to-br from-zinc-800/50 via-transparent to-transparent" />
@@ -209,16 +209,16 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <div className="relative z-10 w-full max-w-420 mx-auto px-8">
-          <h2 className="text-5xl md:text-6xl font-bold text-white text-center mb-16 italic">
+        <div className="relative z-10 w-full max-w-420 mx-auto px-4 md:px-8">
+          <h2 className="text-3xl md:text-6xl font-bold text-white text-center mb-6 md:mb-16 italic">
             OUR COLLABORATIONS
           </h2>
 
           {/* Partner Logos - Marquee */}
           <div className="overflow-hidden">
-            <div className="flex animate-marquee gap-20">
+            <div className="flex animate-marquee gap-10 md:gap-20">
               {/* First set */}
-              <div className="flex items-center gap-20 shrink-0">
+              <div className="flex items-center gap-10 md:gap-20 shrink-0">
                 {/* BitGo */}
                 <div className="flex items-center gap-2 text-white/70">
                   <div className="w-10 h-10 border-2 border-white/50 rounded-full flex items-center justify-center">
@@ -296,7 +296,7 @@ export default function AboutPage() {
               </div>
 
               {/* Duplicate set for seamless loop */}
-              <div className="flex items-center gap-20 shrink-0">
+              <div className="flex items-center gap-10 md:gap-20 shrink-0">
                 {/* BitGo */}
                 <div className="flex items-center gap-2 text-white/70">
                   <div className="w-10 h-10 border-2 border-white/50 rounded-full flex items-center justify-center">
