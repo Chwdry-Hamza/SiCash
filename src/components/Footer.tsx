@@ -46,7 +46,7 @@ export default function Footer() {
         {/* Navigation Links */}
         <div className="flex flex-col items-center gap-8 mb-12">
           <Link href="/about" className="text-zinc-400 text-sm hover:text-white transition-colors">ABOUT SICASH</Link>
-          {/* <Link href="/otc-desk" className="text-zinc-400 text-sm hover:text-white transition-colors">OTC DESK</Link> */}
+          <Link href="/otc-desk" className="text-zinc-400 text-sm hover:text-white transition-colors">OTC DESK</Link>
           <Link href="/privacy-policy" className="text-zinc-400 text-sm hover:text-white transition-colors">PRIVACY POLICY</Link>
           <Link href="/cookie-policy" className="text-zinc-400 text-sm hover:text-white transition-colors">COOKIE POLICY</Link>
           <Link href="/terms-conditions" className="text-zinc-400 text-sm hover:text-white transition-colors">TERMS & CONDITIONS</Link>
@@ -68,7 +68,7 @@ export default function Footer() {
               <p className="text-[10px] text-zinc-400">Download on the</p>
               <p className="text-white text-base font-semibold -mt-0.5">App Store</p>
             </div>
-          </a>
+          </a>  
           {/* Google Play */}
           <a href="https://play.google.com/store/apps/details?id=com.sicash" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3 bg-zinc-900 border border-zinc-700 rounded-xl px-6 py-3 hover:bg-zinc-800 transition-colors">
             <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="currentColor">
@@ -113,7 +113,6 @@ export default function Footer() {
             <h2 className="text-white text-4xl font-black tracking-tight">SICASH</h2>
             <p className="text-zinc-500 text-sm tracking-widest mt-1">THE MONEY APP</p>
           </div>
-
           {/* Social Icons */}
           <div className="flex items-center gap-6">
             {/* X (Twitter) */}
@@ -145,7 +144,7 @@ export default function Footer() {
         {/* Navigation Links */}
         <div className="flex flex-wrap justify-end gap-x-6 gap-y-2 mb-8">
           <Link href="/about" className="text-zinc-400 text-sm hover:text-white transition-colors">ABOUT SICASH</Link>
-          {/* <Link href="/otc-desk" className="text-zinc-400 text-sm hover:text-white transition-colors">OTC DESK</Link> */}
+          <Link href="/otc-desk" className="text-zinc-400 text-sm hover:text-white transition-colors">OTC DESK</Link>
           <Link href="/privacy-policy" className="text-zinc-400 text-sm hover:text-white transition-colors">PRIVACY POLICY</Link>
           <Link href="/cookie-policy" className="text-zinc-400 text-sm hover:text-white transition-colors">COOKIE POLICY</Link>
           <Link href="/terms-conditions" className="text-zinc-400 text-sm hover:text-white transition-colors">TERMS & CONDITIONS</Link>

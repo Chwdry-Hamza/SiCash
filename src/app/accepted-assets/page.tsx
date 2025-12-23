@@ -619,7 +619,7 @@ export default function AcceptedAssetsPage() {
             Open your SICASH account today and start managing your fiat and crypto assets in one place.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
-            <Link href="/#" className="px-6 md:px-8 py-3 md:py-4 bg-amber-200 hover:bg-amber-100 text-black font-bold text-sm tracking-wider rounded transition-colors">
+            <Link href="/otc-desk" className="px-6 md:px-8 py-3 md:py-4 bg-amber-200 hover:bg-amber-100 text-black font-bold text-sm tracking-wider rounded transition-colors">
               EXPLORE OTC DESK
             </Link>
             <Link href="/about" className="px-6 md:px-8 py-3 md:py-4 bg-zinc-700 hover:bg-zinc-600 text-white font-bold text-sm tracking-wider rounded transition-colors">
