@@ -65,7 +65,7 @@ export default function HomeHero() {
           {/* Green diagonal glow - stretched like phone shape */}
           <div className="absolute top-1/2 left-1/2 -translate-x-[10%] -translate-y-1/2 md:translate-x-0 md:translate-y-0 md:-top-4 md:left-60 w-36 h- md:w-64 md:h-160 bg-[#76ea59]/50 rounded-full blur-3xl rotate-[30deg]" />
           <Image
-            src="/Home 1Section.png"
+            src="/Home 1Section1.png"
             alt="SICASH App with Cards"
             fill
             className="object-contain relative z-10"
